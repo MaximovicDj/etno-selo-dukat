@@ -12,7 +12,10 @@ useScrollReveal();
   <a class="skip-link" href="#main">{{ copy.skip }}</a>
   <SiteHeader current="contact" :depth="1" />
   <main id="main">
-    <section class="page-intro section-space" aria-labelledby="contact-page-title">
+    <section
+      class="page-intro contact-page-intro section-space"
+      aria-labelledby="contact-page-title"
+    >
       <div class="wrap page-intro-copy">
         <p class="eyebrow">КОНТАКТ · ЕТНО СЕЛО ДУКАТ</p>
         <h1 id="contact-page-title">Видимо се<br />у Мислођину.</h1>

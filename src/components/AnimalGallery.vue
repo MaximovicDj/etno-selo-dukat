@@ -1,4 +1,5 @@
 <script setup>
+
 import { computed, ref } from "vue";
 import VenueImage from "./VenueImage.vue";
 import ImageCarousel from "./ImageCarousel.vue";
@@ -6,13 +7,18 @@ import IconSymbol from "./IconSymbol.vue";
 import { copy, animalGallery, playgroundImages } from "../content";
 
 const active = ref(0);
+
 const orderedAnimals = computed(() =>
-  animalGallery.map((_, offset) => animalGallery[(active.value + offset) % animalGallery.length]),
+  animalGallery.map((_, offset) => animalGallery[(active.value + offset) % animalGallery.length],),
 );
+
 function move(step) {
-  active.value = (active.value + step + animalGallery.length) % animalGallery.length;
+  active.value =
+    (active.value + step + animalGallery.length) % animalGallery.length;
 }
+
 </script>
+
 <template>
   <section
     id="dozivljaji"
@@ -27,7 +33,14 @@ function move(step) {
       </div>
 
       <div class="animal-carousel" role="region" aria-label="Галерија животиња">
-        <button class="animal-arrow animal-arrow--previous" type="button" aria-label="Претходне животиње" @click="move(-1)"><IconSymbol name="arrow-left" /></button>
+        <button
+          class="animal-arrow animal-arrow--previous"
+          type="button"
+          aria-label="Претходне животиње"
+          @click="move(-1)"
+        >
+          <IconSymbol name="arrow-left" />
+        </button>
         <div class="animal-window">
           <div class="animal-grid animal-grid--rail">
             <article
@@ -36,17 +49,30 @@ function move(step) {
               class="animal-card animal-feature-card"
               :class="`animal-feature-card--${animal.theme}`"
             >
-              <div class="animal-feature-image"><VenueImage :image="animal.image" /></div>
+              <div class="animal-feature-image">
+                <VenueImage :image="animal.image" />
+              </div>
               <div class="animal-copy">
-                <span class="animal-feature-icon"><IconSymbol :name="animal.icon" /></span>
-                <p class="animal-number">{{ String(animalGallery.indexOf(animal) + 1).padStart(2, "0") }}</p>
+                <span class="animal-feature-icon">
+                  <IconSymbol :name="animal.icon" />
+                </span>
+                <p class="animal-number">
+                  {{ String(animalGallery.indexOf(animal) + 1).padStart(2, "0") }}
+                </p>
                 <h3>{{ animal.name }}</h3>
                 <p>{{ animal.description }}</p>
               </div>
             </article>
           </div>
         </div>
-        <button class="animal-arrow animal-arrow--next" type="button" aria-label="Следеће животиње" @click="move(1)"><IconSymbol name="arrow-right" /></button>
+        <button
+          class="animal-arrow animal-arrow--next"
+          type="button"
+          aria-label="Следеће животиње"
+          @click="move(1)"
+        >
+          <IconSymbol name="arrow-right" />
+        </button>
       </div>
 
       <div class="family-notes">

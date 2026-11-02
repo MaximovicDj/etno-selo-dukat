@@ -57,6 +57,11 @@ defineProps({ name: { type: String, required: true } });
     <template v-else-if="name === 'goat'">
       <path d="M6 20v-5l2-3V8l2-3 2 3h4l2-3 1 4 2 2v4l-2 2v3" /><path d="M9 20v-3M17 20v-3" /><path d="M7 9 5 7M17 9l2-2" /><path d="M13 10h.01" />
     </template>
+    <template v-else-if="name === 'dog'">
+      <path d="M8 7 5 4 2 8l3 7 2-3M16 7l3-3 3 4-3 7-2-3" />
+      <path d="M7 8a5 5 0 0 1 10 0v8a5 5 0 0 1-10 0V8Z" />
+      <path d="M9 11h.01M15 11h.01M10 15h4l-2 2-2-2ZM12 17v2" />
+    </template>
     <template v-else-if="name === 'cat'">
       <path d="M5 10 4 5l4 2a8 8 0 0 1 8 0l4-2-1 5v4a7 7 0 0 1-14 0v-4Z" /><path d="M9 14h.01M15 14h.01" /><path d="m10 17 2 1 2-1" /><path d="M3 15h4M17 15h4" />
     </template>
