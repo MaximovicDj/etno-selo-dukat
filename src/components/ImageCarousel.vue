@@ -1,7 +1,9 @@
 <script setup>
+
 import { computed, ref } from "vue";
 import VenueImage from "./VenueImage.vue";
 import IconSymbol from "./IconSymbol.vue";
+
 const props = defineProps({
   images: { type: Array, required: true },
   label: { type: String, required: true },
@@ -9,34 +11,42 @@ const props = defineProps({
   startIndex: { type: Number, default: 0 },
   fullscreen: Boolean,
 });
+
 defineEmits(["open"]);
-const active = ref(
-  Math.max(0, Math.min(props.startIndex, props.images.length - 1)),
-);
+
+const active = ref(Math.max(0, Math.min(props.startIndex, props.images.length - 1)),);
+
 const orderedImages = computed(() =>
   props.images.map((_, index) => {
     const position = (active.value + index) % props.images.length;
     return { image: props.images[position], position };
   }),
 );
+
 const isShowcase = computed(() => ["playground", "village"].includes(props.variant));
 const isFeatured = computed(() => props.variant === "featured");
+
 const displayedImages = computed(() => {
   if (!isShowcase.value) return orderedImages.value;
+
   const total = props.images.length;
+
   return [-1, 0, 1].map((offset) => {
     const position = (active.value + offset + total) % total;
     return { image: props.images[position], position };
   });
 });
+
 const publicSource = (source) =>
   /^(https?:)?\/\//.test(source) || source.startsWith("/")
     ? source
     : `/${source}`;
+
 function move(step) {
   active.value =
     (active.value + step + props.images.length) % props.images.length;
 }
+
 function keyboard(event) {
   if (event.key === "ArrowRight") {
     event.preventDefault();
@@ -55,7 +65,9 @@ function keyboard(event) {
     active.value = props.images.length - 1;
   }
 }
+
 let startX = null;
+
 function swipe(event) {
   if (
     startX !== null &&
@@ -65,6 +77,7 @@ function swipe(event) {
   startX = null;
 }
 </script>
+
 <template>
   <div
     class="image-carousel"
@@ -116,7 +129,7 @@ function swipe(event) {
           <p class="gallery-label">{{ image.label }}</p>
         </div>
       </div>
-      </div>
+    </div>
     <div
       v-else
       class="carousel-stage"
@@ -131,14 +144,21 @@ function swipe(event) {
           role="group"
           :aria-label="`${active + 1} од ${images.length}`"
         >
-          <img class="featured-gallery-backdrop" :src="publicSource(images[active].src)" alt="" aria-hidden="true" />
+          <img
+            class="featured-gallery-backdrop"
+            :src="publicSource(images[active].src)"
+            alt=""
+            aria-hidden="true"
+          />
           <button
             v-if="fullscreen"
             type="button"
             class="carousel-image-open"
             :aria-label="`Увећај слику: ${images[active].label}`"
             @click="$emit('open', images[active])"
-          ><VenueImage :image="images[active]" /></button>
+          >
+            <VenueImage :image="images[active]" />
+          </button>
           <VenueImage v-else :image="images[active]" />
           <div class="featured-gallery-meta">
             <IconSymbol name="bed" />
@@ -147,7 +167,9 @@ function swipe(event) {
               <p>Аутентичан етно амбијент за миран предах.</p>
             </div>
           </div>
-          <span class="featured-gallery-count">{{ active + 1 }} / {{ images.length }}</span>
+          <span class="featured-gallery-count">
+            {{ active + 1 }} / {{ images.length }}
+          </span>
         </div>
       </Transition>
       <div
@@ -165,23 +187,33 @@ function swipe(event) {
           target="_blank"
           rel="noopener noreferrer"
           :aria-label="`Отвори у пуној величини: ${image.label}`"
-        ><VenueImage :image="image" /></a>
+        >
+          <VenueImage :image="image" />
+        </a>
         <button
           v-else-if="fullscreen"
           type="button"
           class="carousel-image-open"
           :aria-label="`Увећај слику: ${image.label}`"
           @click="$emit('open', image)"
-        ><VenueImage :image="image" /></button>
+        >
+          <VenueImage :image="image" />
+        </button>
         <VenueImage v-else :image="image" />
       </div>
     </div>
-    <div class="carousel-controls" :class="{ 'featured-gallery-controls': isFeatured }">
+    <div
+      class="carousel-controls"
+      :class="{ 'featured-gallery-controls': isFeatured }"
+    >
       <button type="button" aria-label="Претходна слика" @click="move(-1)">
         <IconSymbol name="arrow-left" />
       </button>
       <p v-if="!isShowcase && !isFeatured" aria-live="polite" aria-atomic="true">
-        <span class="carousel-count">{{ String(active + 1).padStart(2, "0") }} / {{ String(images.length).padStart(2, "0") }}</span>
+        <span class="carousel-count">
+          {{ String(active + 1).padStart(2, "0") }} /
+          {{ String(images.length).padStart(2, "0") }}
+        </span>
         {{ images[active].label }}
       </p>
       <button type="button" aria-label="Следећа слика" @click="move(1)">
@@ -201,10 +233,14 @@ function swipe(event) {
         :aria-pressed="active === index"
         @click="active = index"
       >
-        <img :src="publicSource(image.src)" alt="" loading="lazy" width="100" height="70" />
+        <img
+          :src="publicSource(image.src)"
+          alt=""
+          loading="lazy"
+          width="100"
+          height="70"
+        />
       </button>
     </div>
   </div>
 </template>
-
-

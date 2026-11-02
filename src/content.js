@@ -7,7 +7,6 @@ export const venue = {
   tel: "tel:+381640050106",
   // Confirmed contact email, displayed in the contact bar.
   email: "karatedubica@gmail.com",
-  emailIsPlaceholder: false,
   address: "Оскара Давича 24",
   locality: "Мислођин 11500, Србија",
   location: "Мислођин · Обреновац · Србија",
@@ -256,6 +255,19 @@ export const animalGallery = [
       width: 355,
       height: 250,
       label: "Пони Срећко",
+    },
+  },
+  {
+    name: "Наш Дука",
+    description: "Дука је наш кућни љубимац и део породице ДУКАТ. Један радознали поглед испод жутих колских точкова — и сеоски дан одмах постаје топлији.",
+    icon: "dog",
+    theme: "gold",
+    image: {
+      src: "images/animal-duka.png",
+      alt: "Пас Дука у црвеном џемперићу одмара на трави између жутих точкова дрвених кола.",
+      width: 1086,
+      height: 1448,
+      label: "Наш Дука",
     },
   },
   {
@@ -655,6 +667,8 @@ export const magazaImages = accommodationPage.units.flatMap((unit) => unit.galle
 
 // Transcribed from the owner's supplied cenovnikzastolice.png. Prices are EUR per chair.
 export const celebration = {
+  galleryTitle: "Сала ресторана",
+  galleryDescription: "Пријатан амбијент за прославе и породична окупљања",
   eyebrow: "ЗА ВАШЕ НАЈЛЕПШЕ ТРЕНУТКЕ",
   title: "Прославите заједно.\nДомаћински, од срца.",
   description:
@@ -726,17 +740,41 @@ export const celebration = {
   ],
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export const celebrationGalleryImages = [
+  {
+    src: "images/celebration-gallery-1.png",
+    width: 1086,
+    height: 1448,
+    alt: "Постављени столови и дрвене греде у сали за прославе Етно села ДУКАТ.",
+  },
+  {
+    src: "images/celebration-gallery-2.png",
+    width: 480,
+    height: 640,
+    alt: "Сала за прославе са традиционалним украсима и топлим осветљењем.",
+  },
+  {
+    src: "images/celebration-gallery-3.png",
+    width: 576,
+    height: 768,
+    alt: "Поглед на столове и етно детаље у пространој сали ДУКАТ.",
+  },
+  {
+    src: "images/celebration-gallery-4.png",
+    width: 480,
+    height: 640,
+    alt: "Трпеза за госте поред витрине са традиционалним предметима.",
+  },
+  {
+    src: "images/celebration-gallery-5.png",
+    width: 1368,
+    height: 1824,
+    alt: "Постављени столови у сали Етно села ДУКАТ под дрвеним гредама.",
+  },
+  {
+    src: "images/celebration-gallery-6.png",
+    width: 1368,
+    height: 1824,
+    alt: "Сала за прославе са дрвеним шанком и традиционалним украсима.",
+  },
+];
