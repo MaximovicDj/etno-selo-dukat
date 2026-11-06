@@ -1,6 +1,6 @@
-import { createApp } from "vue";
+import { mountPage } from './mount';
 import AccommodationPage from "./AccommodationPage.vue";
 import "./style.css";
 import "./ethno.css";
 import "./enhancements.css";
-createApp(AccommodationPage).mount("#app");
+mountPage(AccommodationPage, { depth: location.pathname.endsWith('/magaze.html') ? 0 : 1 });

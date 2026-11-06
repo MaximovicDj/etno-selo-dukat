@@ -1,6 +1,6 @@
-import { createApp } from "vue";
+import { mountPage } from './mount';
 import RestaurantPage from "./RestaurantPage.vue";
 import "./style.css";
 import "./ethno.css";
 import "./enhancements.css";
-createApp(RestaurantPage).mount("#app");
+mountPage(RestaurantPage);

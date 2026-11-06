@@ -39,3 +39,15 @@ Photo processing preserves full source dimensions. Existing JPEG/WebP images ret
 The build creates Brotli and gzip copies of HTML, JavaScript, CSS and SVG. Configure the host to negotiate these using Accept-Encoding, with the matching Content-Encoding, original Content-Type and Vary: Accept-Encoding.
 
 Use `Cache-Control: public, max-age=31536000, immutable` for hashed `/assets/*` and `/images/optimized/*`. Use revalidation for HTML and unversioned original images. Publish builds atomically or keep older hashed assets until cached pages expire. Actual compression, caching and performance must be checked on the chosen host.
+
+## Search visibility and publishing
+
+`npm run build` generates complete HTML for all six entry pages using the same Vue components as the interactive site. Vue hydrates this HTML in the browser. There is no production Node server requirement. Real image URLs, responsive sources, intrinsic dimensions and native lazy loading are included in the HTML. Keep the prerender step before compression in `postbuild`.
+
+Page titles, descriptions and canonical routes are defined in `site.config.js`. Visible text targets the venue's actual location: Mislođin near Obrenovac and Belgrade. The build adds local-business, website and page structured data. Unconfirmed hours and Google review scores are not included in that markup.
+
+Before publishing, copy `.env.example` to `.env.production` and set `SITE_URL` to the real public origin, for example `https://your-domain.rs`. This project expects deployment at the domain root. Rebuild after changing the domain. Never publish the example domain.
+
+With `SITE_URL` set, the build automatically adds absolute canonical URLs, social sharing image URLs, breadcrumbs and `dist/sitemap.xml`, and references the sitemap from `dist/robots.txt`. The sitemap includes the five main pages. The legacy `/magaze.html` page points to `/smestaj/` as its canonical; new internal accommodation links use `/smestaj/`. Without a configured domain, robots.txt still allows crawling; domain-specific metadata and sitemap are omitted rather than publishing invented URLs.
+
+After deployment: enable HTTPS and redirect alternate hosts to the chosen domain; preferably redirect `/magaze.html` to `/smestaj/` with a permanent server redirect. Verify the site in Google Search Console (DNS or HTML tag; `GOOGLE_SITE_VERIFICATION` supports the latter), submit `/sitemap.xml`, and inspect the five URLs. Check the actual server status codes, mobile performance and rendered structured data with Google's URL Inspection and Rich Results tools. Add the website address to the venue's Google Business Profile and keep its contact details consistent with the site. Rankings and indexing timing are controlled by search engines.
