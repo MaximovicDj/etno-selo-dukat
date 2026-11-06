@@ -12,12 +12,13 @@ import { accommodationPage as page, venue, copy, galleryImages, accommodationHer
 import { useScrollReveal } from './useScrollReveal';
 useScrollReveal();
 const selectedUnit = ref(null);
+defineProps({ depth: { type: Number, default: 1 } });
 </script>
 
 <template>
   <a class="skip-link" href="#main">{{ copy.skip }}</a>
   <div id="pocetak">
-    <SiteHeader current="stay" :depth="1" />
+    <SiteHeader current="stay" :depth="depth" />
   </div>
   <main id="main" class="accommodation-page">
     <section class="stay-hero section-space" aria-labelledby="stay-heading">
@@ -25,9 +26,9 @@ const selectedUnit = ref(null);
         <div class="stay-hero-copy" data-reveal>
           <p class="eyebrow">ТРИ МАГАЗЕ · ЈЕДАН ДОМАЋИНСКИ ДОМ</p>
           <h1 id="stay-heading">
-            Останите још мало.<br />
-            Осећајте се као<br />
-            код куће.
+            Смештај у магазама.<br />
+            Предах код<br />
+            Обреновца.
           </h1>
           <p class="stay-description">{{ page.description }}</p>
           <div class="stay-hero-actions">
@@ -54,7 +55,7 @@ const selectedUnit = ref(null);
       <div class="wrap">
         <header class="stay-section-heading" data-reveal>
           <p class="eyebrow">ДОМАЋИНСКИ ПРЕДАХ</p>
-          <h2 id="magaze-heading">Наше магазе</h2>
+          <h2 id="magaze-heading">Ноћење у Етно селу Дукат</h2>
           <p>
             Три аутентичне магазе, уређене у духу традиције, пружају мир, удобност и
             прави сеоски доживљај.
@@ -146,7 +147,7 @@ const selectedUnit = ref(null);
       </div>
     </section>
   </main>
-  <SiteFooter :depth="1" />
+    <SiteFooter :depth="depth" />
   <BackToTop />
   <ImageLightbox :images="selectedUnit?.gallery || []" :open="!!selectedUnit" :label="selectedUnit?.name || 'Галерија смештаја'" @close="selectedUnit = null" />
 </template>

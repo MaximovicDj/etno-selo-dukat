@@ -54,7 +54,7 @@ onBeforeUnmount(restore);
 </script>
 
 <template>
-  <Teleport to="body">
+  <Teleport to="#image-lightboxes">
     <dialog
       v-if="open && image"
       ref="dialog"

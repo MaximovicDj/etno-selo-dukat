@@ -2,7 +2,6 @@
 import RestaurantMenu from "./RestaurantMenu.vue";
 import PhotoGallery from "./PhotoGallery.vue";
 
-
 const foodImages = [
   {
     src: "images/food/charcuterie-platter.png",

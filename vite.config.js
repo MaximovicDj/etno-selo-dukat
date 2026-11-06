@@ -1,10 +1,11 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import vue from "@vitejs/plugin-vue";
 import { fileURLToPath } from "node:url";
 import { readFileSync } from 'node:fs';
 import { bannerImage, accommodationHeroImage, celebrationGalleryImages } from './src/content.js';
 import { backgroundImages, backgroundVariable } from './src/backgroundImages.js';
 import { heroSizes, stayHeroSizes, gallerySizesFor } from './src/imageLayouts.js';
+import { seoPlugin } from './scripts/seo.mjs';
 
 const imageManifest = JSON.parse(readFileSync(new URL('./src/image-manifest.json', import.meta.url), 'utf8'));
 const preloadImages = {
@@ -51,8 +52,10 @@ function optimizedImages() {
   };
 }
 
-export default defineConfig({
-  plugins: [optimizedImages(), vue()],
+export default defineConfig(({ mode }) => {
+  const env = { ...loadEnv(mode, process.cwd(), ''), ...process.env };
+  return {
+  plugins: [optimizedImages(), seoPlugin(env.SITE_URL, env.GOOGLE_SITE_VERIFICATION), vue({ features: { componentIdGenerator: 'filepath-source' } })],
   base: "./",
   resolve: { preserveSymlinks: true },
   build: {
@@ -67,4 +70,5 @@ export default defineConfig({
       },
     },
   },
+  };
 });

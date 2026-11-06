@@ -9,15 +9,14 @@ const props = defineProps({
   sizes: { type: String, default: '100vw' },
 });
 const element = ref(null);
-const ready = ref(props.eager);
 const visible = ref(props.eager);
 const box = ref(null);
 let intersection;
 let resize;
 const dimensions = computed(() => imageDimensions(props.source));
-// A real, transparent intrinsic-size image reserves the same grid/min-content
-// space before loading. An img with no src can collapse an auto-height parent.
-const placeholder = computed(() => `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="${dimensions.value?.width || 1}" height="${dimensions.value?.height || 1}"/>`)}`);
+// Real image URLs are present in the prerendered HTML for search engines and
+// no-JavaScript visitors. Native lazy loading defers offscreen image transfers;
+// intrinsic dimensions reserve layout space while sizes is refined after mount.
 const measuredSizes = computed(() => {
   if (!box.value || !dimensions.value) return props.sizes;
   const { width, height, fit } = box.value;
@@ -46,13 +45,11 @@ onMounted(() => {
     resize.observe(element.value);
   }
   if (props.eager || !('IntersectionObserver' in window)) {
-    ready.value = true;
     return;
   }
   intersection = new IntersectionObserver(entries => {
     if (!entries.some(entry => entry.isIntersecting)) return;
     measure();
-    ready.value = true;
     intersection.disconnect();
   }, { rootMargin: '300px 0px' });
   intersection.observe(element.value);
@@ -63,13 +60,12 @@ onBeforeUnmount(() => { intersection?.disconnect(); resize?.disconnect(); });
 <template>
   <img
     ref="element"
-    :src="ready ? imageSource(source) : placeholder"
-    :srcset="ready ? imageSrcset(source) : undefined"
+    :src="imageSource(source)"
+    :srcset="imageSrcset(source)"
     :sizes="measuredSizes"
     :width="dimensions?.width"
     :height="dimensions?.height"
     :data-source="source"
-    :data-image-ready="ready"
     :loading="eager || visible ? 'eager' : 'lazy'"
     :fetchpriority="priority"
     decoding="async"

@@ -13,7 +13,7 @@ async function walk(directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const file = path.join(directory, entry.name);
     if (entry.isDirectory()) { await walk(file); continue; }
-    if (!/\.(html|css|js|svg|json)$/.test(entry.name)) continue;
+    if (!/\.(html|css|js|svg|json|txt|xml)$/.test(entry.name)) continue;
     const input = await readFile(file);
     const [br, compressed] = await Promise.all([
       brotli(input, { params: { [constants.BROTLI_PARAM_QUALITY]: 11 } }),

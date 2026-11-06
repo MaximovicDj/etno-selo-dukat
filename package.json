@@ -7,7 +7,7 @@
     "images:optimize": "node scripts/optimize-images.mjs",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "postbuild": "node scripts/precompress.mjs",
+    "postbuild": "node scripts/prerender.mjs && node scripts/verify-build.mjs && node scripts/precompress.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
