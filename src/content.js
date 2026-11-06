@@ -742,7 +742,7 @@ export const celebration = {
 
 export const celebrationGalleryImages = [
   {
-    src: "images/retouched/celebration-gallery-1-clarity-v2.png",
+    src: "images/retouched/celebration-gallery-1-contrast-v3.png",
     width: 1086,
     height: 1448,
     label: "Сала ресторана",

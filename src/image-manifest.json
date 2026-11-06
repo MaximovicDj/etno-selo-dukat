@@ -2849,6 +2849,50 @@
       "encoding": "q94"
     }
   ],
+  "images/retouched/celebration-gallery-1-contrast-v3.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/celebration-gallery-1-contrast-v3-aa68e1743e-1086.webp",
+      "encoding": "q94"
+    }
+  ],
   "images/retouched/stay-gallery-courtyard-sign-natural-v1.png": [
     {
       "width": 160,
