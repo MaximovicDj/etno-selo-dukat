@@ -2,10 +2,12 @@
 
 import { computed, ref, watch } from "vue";
 import { copy } from "../content";
+import ResponsiveImage from './ResponsiveImage.vue';
 
 const props = defineProps({
   image: { type: Object, required: true },
   eager: Boolean,
+  sizes: { type: String, default: '(max-width: 700px) 100vw, 720px' },
 });
 
 const failed = ref(false);
@@ -14,14 +16,6 @@ const imageStyle = computed(() => ({
   "--image-width": props.image.width || 1536,
   "--image-height": props.image.height || 1024,
 }));
-
-const publicSource = computed(() => {
-  const source = props.image.src;
-
-  return /^(https?:)?\/\//.test(source) || source.startsWith("/")
-    ? source
-    : `/${source}`;
-});
 
 watch(
   () => props.image.src,
@@ -37,15 +31,13 @@ watch(
     :class="{ 'venue-image--contain': image.fit === 'contain' }"
     :style="imageStyle"
   >
-    <img
+    <ResponsiveImage
       v-if="!failed"
-      :src="publicSource"
+      :source="image.src"
+      :sizes="sizes"
       :alt="image.alt"
-      :width="image.width || 1536"
-      :height="image.height || 1024"
-      :loading="eager ? 'eager' : 'lazy'"
-      :fetchpriority="eager ? 'high' : 'auto'"
-      decoding="async"
+      :eager="eager"
+      :priority="eager ? 'high' : 'auto'"
       @error="failed = true"
     />
     <div v-else class="image-placeholder" role="img" :aria-label="image.alt">

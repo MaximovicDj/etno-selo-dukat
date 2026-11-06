@@ -5,10 +5,11 @@ import WednesdayOffer from "./components/WednesdayOffer.vue";
 import ContactSection from "./components/ContactSection.vue";
 import SiteFooter from "./components/SiteFooter.vue";
 import AnimalGallery from "./components/AnimalGallery.vue";
-import ImageCarousel from "./components/ImageCarousel.vue";
+import PhotoGallery from "./components/PhotoGallery.vue";
 import BackToTop from "./components/BackToTop.vue";
 import IconSymbol from "./components/IconSymbol.vue";
 import { useScrollReveal } from "./useScrollReveal";
+import { heroSizes } from './imageSources';
 import {
   venue,
   copy,
@@ -64,7 +65,7 @@ const highlights = [
 <!--    Banner Section-->
     <section class="hero hero-full" aria-labelledby="hero-heading">
       <div class="hero-full-art">
-        <VenueImage :image="bannerImage" eager />
+        <VenueImage :image="bannerImage" eager :sizes="heroSizes" />
       </div>
 
       <div class="hero-copy wrap">
@@ -175,12 +176,11 @@ const highlights = [
           <h2 id="gallery-heading">{{ copy.gallery.title }}</h2>
           <p>{{ copy.gallery.description }}</p>
         </div>
-        <ImageCarousel
-          :images="homeGalleryImages"
-          :label="copy.gallery.title"
-          variant="village"
-        />
       </div>
+      <PhotoGallery
+        :images="homeGalleryImages"
+        :label="copy.gallery.title"
+      />
     </section>
 
     <ContactSection />

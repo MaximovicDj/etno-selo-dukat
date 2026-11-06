@@ -2,6 +2,7 @@
 
 import { copy, venue, images } from "../content";
 import IconSymbol from "./IconSymbol.vue";
+import ResponsiveImage from './ResponsiveImage.vue';
 const posterSource = `/${images.poster.src}`;
 
 </script>
@@ -30,12 +31,10 @@ const posterSource = `/${images.poster.src}`;
         rel="noopener noreferrer"
         aria-label="Отвори плакат понуде средом у пуној величини"
       >
-        <img
-          :src="posterSource"
+        <ResponsiveImage
+          :source="images.poster.src"
+          sizes="(max-width: 700px) 100vw, 600px"
           :alt="images.poster.alt"
-          :width="images.poster.width"
-          :height="images.poster.height"
-          loading="lazy"
         />
         <span><IconSymbol name="arrow-up-right" /></span>
       </a>

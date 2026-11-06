@@ -1,11 +1,15 @@
+<script setup>
+import ResponsiveImage from './ResponsiveImage.vue';
+</script>
+
 <template>
   <span class="brand">
-    <img
+    <ResponsiveImage
       class="brand-logo"
-      src="/images/dukat-logo-enhanced.png"
+      source="images/dukat-logo-enhanced.png"
+      sizes="(max-width: 599px) 64px, 74px"
+      eager
       alt="Етно село Дукат"
-      width="1536"
-      height="1536"
     />
     <span class="brand-words">
       <span class="brand-small">ЕТНО СЕЛО</span>

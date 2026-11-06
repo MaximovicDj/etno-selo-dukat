@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "images:optimize": "node scripts/optimize-images.mjs",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
+    "postbuild": "node scripts/precompress.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
@@ -13,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
+    "sharp": "^0.35.5",
     "vite": "^7.0.0"
   }
 }

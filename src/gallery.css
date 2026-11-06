@@ -1,0 +1,64 @@
+/* One full-width photo gallery shared across the site. */
+.photo-gallery { --photo-height: clamp(320px, 34vw, 500px); --main-limit: 60vw; --side-limit: 31vw; position: relative; width: 100%; min-width: 0; padding: 16px 0 0; overflow: hidden; }
+.photo-gallery__heading { max-width: 900px; margin: 0 auto 24px; text-align: center; }
+.photo-gallery__heading h2 { margin: 0; color: #203d2b; font-family: var(--font-serif); font-size: clamp(2.1rem, 4.2vw, 3.8rem); line-height: 1.08; }
+.photo-gallery__heading p { max-width: 720px; margin: 15px auto 0; font-family: var(--font-serif); font-size: 1.2rem; }
+.photo-gallery__rule { display: flex; align-items: center; justify-content: center; gap: 14px; color: #9a6328; margin-bottom: 15px; }
+.photo-gallery__rule span { width: clamp(40px, 10vw, 140px); height: 1px; background: #be8d55; }
+.photo-gallery__stage { --main-width: min(var(--main-limit), calc(var(--photo-height) * var(--main-ratio)), var(--main-native-width)); --main-height: calc(var(--main-width) / var(--main-ratio)); position: relative; isolation: isolate; height: calc(var(--photo-height) + 76px); width: 100%; }
+.photo-gallery__main { position: absolute; z-index: 2; top: calc((var(--photo-height) - var(--main-height)) / 2); left: calc(50% - var(--main-width) / 2); width: var(--main-width); height: var(--main-height); padding: 0; overflow: hidden; border: 0; border-radius: 24px; background: transparent; box-shadow: 0 14px 30px #3f2c1826; cursor: zoom-in; }
+.photo-gallery__main > img, .photo-gallery__side > img { display: block; width: 100%; height: 100%; object-fit: scale-down; object-position: center; }
+.photo-gallery__side { --side-width: min(var(--side-limit), calc(var(--main-height) * .84 * var(--side-ratio)), var(--side-native-width)); --side-height: calc(var(--side-width) / var(--side-ratio)); position: absolute; z-index: 1; top: calc((var(--photo-height) - var(--side-height)) / 2); width: var(--side-width); height: var(--side-height); margin: 0; overflow: hidden; border-radius: 22px; background: transparent; opacity: .78; filter: saturate(.8) contrast(.9); }
+.photo-gallery__side::after { position: absolute; inset: 0; content: ''; background: #fff8eb40; }
+.photo-gallery__side--previous { --side-ratio: var(--previous-ratio); --side-native-width: var(--previous-native-width); left: calc(50% - var(--main-width) / 2 - var(--side-width) * .88); mask-image: linear-gradient(90deg, transparent, #000 52%); }
+.photo-gallery__side--next { --side-ratio: var(--next-ratio); --side-native-width: var(--next-native-width); right: calc(50% - var(--main-width) / 2 - var(--side-width) * .88); mask-image: linear-gradient(90deg, #000 48%, transparent); }
+.photo-gallery__arrow, .image-lightbox__arrow { position: absolute; z-index: 4; top: calc(var(--photo-height) / 2); display: grid; place-items: center; width: clamp(48px, 4.5vw, 72px); height: clamp(48px, 4.5vw, 72px); padding: 0; color: #fff9eb; background: #234a32; border: 2px solid #fff8eb; border-radius: 50%; transform: translateY(-50%); cursor: pointer; box-shadow: 0 6px 20px #203d2b33; }
+.photo-gallery__arrow .icon-symbol, .image-lightbox__arrow .icon-symbol { display: block; width: 26px; height: 26px; margin: 0; flex: none; }
+.photo-gallery__arrow--previous { left: max(6px, calc(50% - var(--main-width) / 2 - clamp(24px, 2.25vw, 36px))); }
+.photo-gallery__arrow--next { right: max(6px, calc(50% - var(--main-width) / 2 - clamp(24px, 2.25vw, 36px))); }
+.photo-gallery__arrow:hover, .image-lightbox__arrow:hover { background: #153422; }
+.photo-gallery__zoom { position: absolute; right: 18px; bottom: 18px; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; color: #fff; background: #183a2be8; border: 1px solid #fff9; border-radius: 30px; font-size: .85rem; }
+.photo-gallery__zoom .icon-symbol { width: 22px; height: 22px; }
+.photo-gallery__caption { position: absolute; top: calc((var(--photo-height) + var(--main-height)) / 2 + 14px); left: 10%; width: 80%; margin: 0; display: flex; justify-content: center; align-items: baseline; gap: 16px; color: #29422f; text-align: center; font-family: var(--font-serif); font-size: 1.3rem; }
+.photo-gallery__main:focus-visible, .photo-gallery__arrow:focus-visible, .photo-gallery__stage:focus-visible { outline: 3px solid #aa7731; outline-offset: 4px; }
+.image-lightbox[open] { position: fixed; inset: 0; display: grid; grid-template-rows: 60px minmax(0, 1fr) 54px; width: 100vw; max-width: none; height: 100vh; height: 100dvh; max-height: none; margin: 0; padding: 0 16px; border: 0; border-radius: 0; color: #fffaf0; background: #111b15; overflow: hidden; }
+.image-lightbox::backdrop { background: #111b15; }
+.image-lightbox__toolbar { display: flex; align-items: center; justify-content: flex-end; padding: 0 8px; }
+.image-lightbox__close { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid #ffffff70; border-radius: 50%; color: white; background: #ffffff14; cursor: pointer; }
+.image-lightbox__close .icon-symbol { width: 24px; height: 24px; }
+.image-lightbox__canvas { min-width: 0; min-height: 0; height: 100%; }
+.image-lightbox__canvas > img { display: block; width: 100%; height: 100%; object-fit: contain; touch-action: pan-y pinch-zoom; }
+.image-lightbox__arrow { top: 50%; width: 54px; height: 54px; }
+.image-lightbox__arrow--previous { left: 20px; }
+.image-lightbox__arrow--next { right: 20px; }
+.image-lightbox__caption { align-self: center; margin: 0; padding: 0 55px; color: #fffaf0; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; font-size: .95rem; }
+.image-lightbox button:focus-visible { outline: 3px solid #e5bd78; outline-offset: 3px; }
+.magaza-card .magaza-image-open-hint { display: inline-flex; align-items: center; gap: 8px; opacity: 1; transform: none; background: #183a2bed; color: #fff; border: 1px solid #ffffffb3; }
+.magaza-image-open-hint .icon-symbol { width: 22px; height: 22px; }
+.magaza-card .magaza-card__actions { display: grid; gap: 12px; width: 100%; margin-top: 24px; }
+.magaza-card__photos { display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 46px; padding: 10px 16px; border: 1px solid #9b763f; border-radius: 6px; color: #29442e; background: #fffaf0; cursor: pointer; font: inherit; font-size: .9rem; }
+.magaza-card__photos .icon-symbol { width: 20px; height: 20px; }
+.magaza-card .magaza-card__actions .button { display: flex; justify-content: center; gap: 9px; width: 100%; margin: 0; text-align: center; padding-inline: 12px; border-radius: 6px; font-size: .9rem; }
+.magaza-card__actions .button .icon-symbol { width: 19px; height: 19px; }
+.celebration-gallery-heading { margin-bottom: 18px; }
+.celebration-gallery-heading .celebration-copy { max-width: 900px; margin-inline: auto; text-align: center; }
+.celebration-gallery-heading .celebration-copy h2 { font-size: clamp(2rem, 3.5vw, 3.4rem); }
+.celebration-gallery-heading .celebration-copy > p:last-child { max-width: 780px; margin-inline: auto; }
+.celebration-section > .wrap > .celebration-gallery-footer { max-width: 1100px; margin: 16px auto 0; }
+.stay-gallery > .wrap { margin-bottom: 10px; }
+.gallery.section-space, .celebration-section.section-space { padding-block: 40px; }
+.accommodation-page .stay-gallery.section-space { padding-block: 44px; }
+.restaurant-experience .restaurant-food { margin-top: 40px; padding-top: 20px; }
+@media (max-width: 699px) {
+  .photo-gallery { --photo-height: clamp(285px, 84vw, 380px); --main-limit: 88vw; --side-limit: 31vw; }
+  .photo-gallery__main { border-radius: 20px; }
+  .photo-gallery__arrow--previous { left: max(6px, calc(50% - var(--main-width) / 2 - 24px)); }
+  .photo-gallery__arrow--next { right: max(6px, calc(50% - var(--main-width) / 2 - 24px)); }
+  .photo-gallery__zoom { right: 12px; bottom: 12px; padding: 8px 12px; }
+  .photo-gallery__caption { left: 6%; width: 88%; font-size: 1.1rem; gap: 10px; }
+  .image-lightbox[open] { padding-inline: 0; }
+  .image-lightbox__arrow { width: 46px; height: 46px; background: #234a32df; }
+  .image-lightbox__arrow--previous { left: 8px; }
+  .image-lightbox__arrow--next { right: 8px; }
+  .image-lightbox__caption { padding-inline: 16px; font-size: .8rem; }
+}

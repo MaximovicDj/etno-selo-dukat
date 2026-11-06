@@ -1,57 +1,17 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref } from "vue";
-import SiteHeader from "./components/SiteHeader.vue";
-import SiteFooter from "./components/SiteFooter.vue";
-import VenueImage from "./components/VenueImage.vue";
-import BackToTop from "./components/BackToTop.vue";
-import IconSymbol from "./components/IconSymbol.vue";
-import RestaurantSpecialtiesGallery from "./components/RestaurantSpecialtiesGallery.vue";
-import {
-  accommodationPage as page,
-  venue,
-  copy,
-  galleryImages,
-  accommodationHeroImage,
-  accommodationInquiryImage,
-} from "./content";
-import { useScrollReveal } from "./useScrollReveal";
-
+import { ref } from 'vue';
+import SiteHeader from './components/SiteHeader.vue';
+import SiteFooter from './components/SiteFooter.vue';
+import VenueImage from './components/VenueImage.vue';
+import { stayHeroSizes } from './imageSources';
+import BackToTop from './components/BackToTop.vue';
+import IconSymbol from './components/IconSymbol.vue';
+import PhotoGallery from './components/PhotoGallery.vue';
+import ImageLightbox from './components/ImageLightbox.vue';
+import { accommodationPage as page, venue, copy, galleryImages, accommodationHeroImage, accommodationInquiryImage } from './content';
+import { useScrollReveal } from './useScrollReveal';
 useScrollReveal();
-
-const lightboxImages = ref([]);
-const lightboxIndex = ref(0);
-const lightboxImage = computed(
-  () => lightboxImages.value[lightboxIndex.value] || null,
-);
-
-const publicSource = (source) =>
-  /^(https?:)?\/\//.test(source) || source.startsWith("/")
-    ? source
-    : `/${source}`;
-
-function openLightbox(images, index = 0) {
-  lightboxImages.value = images;
-  lightboxIndex.value = index;
-}
-
-function closeLightbox() {
-  lightboxImages.value = [];
-  lightboxIndex.value = 0;
-}
-
-function moveLightbox(step) {
-  lightboxIndex.value =
-    (lightboxIndex.value + step + lightboxImages.value.length) %
-    lightboxImages.value.length;
-}
-
-function closeOnEscape(event) {
-  if (event.key === "Escape" && lightboxImage.value) closeLightbox();
-}
-
-onMounted(() => window.addEventListener("keydown", closeOnEscape));
-onBeforeUnmount(() => window.removeEventListener("keydown", closeOnEscape));
-
+const selectedUnit = ref(null);
 </script>
 
 <template>
@@ -83,6 +43,7 @@ onBeforeUnmount(() => window.removeEventListener("keydown", closeOnEscape));
         <VenueImage
           class="stay-hero-image"
           :image="accommodationHeroImage"
+          :sizes="stayHeroSizes"
           eager
           data-reveal
         />
@@ -110,15 +71,19 @@ onBeforeUnmount(() => window.removeEventListener("keydown", closeOnEscape));
               type="button"
               class="magaza-image-open"
               :aria-label="`Отвори галерију: ${unit.name}`"
-              @click="openLightbox(unit.gallery)"
+              @click="selectedUnit = unit" aria-haspopup="dialog"
             >
               <VenueImage :image="unit.gallery[0]" />
-              <span class="magaza-image-open-hint">Погледајте галерију</span>
+              <span class="magaza-image-open-hint"><IconSymbol name="zoom-in" />Погледајте галерију</span>
             </button>
             <div class="magaza-copy">
               <h3 :id="`magaza-${unit.number}`">{{ unit.name }}</h3>
               <span v-if="unit.status" class="magaza-status">{{ unit.status }}</span>
               <p>{{ unit.description }}</p>
+              <div class="magaza-card__actions">
+                <button type="button" class="magaza-card__photos" aria-haspopup="dialog" :aria-label="`Отвори фотографије: ${unit.name}`" @click="selectedUnit = unit"><IconSymbol name="zoom-in" />Погледајте фотографије ({{ unit.gallery.length }})</button>
+                <a class="button button-dark" :href="venue.tel" :aria-label="`Резервишите преноћиште: ${unit.name}`">Резервишите преноћиште<IconSymbol name="phone" /></a>
+              </div>
             </div>
           </article>
         </div>
@@ -157,16 +122,8 @@ onBeforeUnmount(() => window.removeEventListener("keydown", closeOnEscape));
           <h2 id="stay-gallery-heading">Галерија смештаја</h2>
           <p>Погледајте атмосферу нашег имања и доживите дух Етно села ДУКАТ.</p>
         </header>
-        <RestaurantSpecialtiesGallery
-          class="stay-gallery-carousel"
-          :images="galleryImages"
-          label="Галерија смештаја"
-          hide-heading
-          fullscreen
-          data-reveal
-          @open="openLightbox(galleryImages, galleryImages.indexOf($event))"
-        />
       </div>
+        <PhotoGallery :images="galleryImages" label="Галерија смештаја" />
     </section>
 
     <section class="stay-inquiry section-space" aria-labelledby="inquiry-heading">
@@ -191,42 +148,5 @@ onBeforeUnmount(() => window.removeEventListener("keydown", closeOnEscape));
   </main>
   <SiteFooter :depth="1" />
   <BackToTop />
-  <Teleport to="body">
-    <div
-      v-if="lightboxImage"
-      class="stay-lightbox"
-      role="dialog"
-      aria-modal="true"
-      :aria-label="lightboxImage.label"
-      @click.self="closeLightbox"
-    >
-      <button
-        type="button"
-        class="stay-lightbox-close"
-        aria-label="Затвори фотографију"
-        @click="closeLightbox"
-      >
-        ×
-      </button>
-      <button
-        v-if="lightboxImages.length > 1"
-        type="button"
-        class="stay-lightbox-nav stay-lightbox-prev"
-        aria-label="Претходна фотографија"
-        @click="moveLightbox(-1)"
-      >
-        <IconSymbol name="arrow-left" />
-      </button>
-      <img :src="publicSource(lightboxImage.src)" :alt="lightboxImage.alt" />
-      <button
-        v-if="lightboxImages.length > 1"
-        type="button"
-        class="stay-lightbox-nav stay-lightbox-next"
-        aria-label="Следећа фотографија"
-        @click="moveLightbox(1)"
-      >
-        <IconSymbol name="arrow-right" />
-      </button>
-    </div>
-  </Teleport>
+  <ImageLightbox :images="selectedUnit?.gallery || []" :open="!!selectedUnit" :label="selectedUnit?.name || 'Галерија смештаја'" @close="selectedUnit = null" />
 </template>

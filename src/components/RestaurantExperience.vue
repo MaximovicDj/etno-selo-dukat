@@ -1,10 +1,8 @@
 <script setup>
-import ImageCarousel from "./ImageCarousel.vue";
-import IconSymbol from "./IconSymbol.vue";
-import RestaurantSpecialtiesGallery from "./RestaurantSpecialtiesGallery.vue";
-import { restaurantImages, venue } from "../content";
+import RestaurantMenu from "./RestaurantMenu.vue";
+import PhotoGallery from "./PhotoGallery.vue";
 
-const menuImages = restaurantImages.slice(0, 3).map((image) => ({ ...image, fullView: true }));
+
 const foodImages = [
   {
     src: "images/food/charcuterie-platter.png",
@@ -116,34 +114,16 @@ const foodImages = [
         <p>Уживајте у домаћим специјалитетима, припремљеним по традиционалним рецептима,<br />од свежих и квалитетних намирница.</p>
       </header>
 
-      <div class="restaurant-menu-layout">
-        <ImageCarousel
-          id="menu-prikaz"
-          class="restaurant-menu-carousel"
-          :images="menuImages"
-          label="Јеловник Етно села ДУКАТ"
-          :start-index="2"
-        />
+      <RestaurantMenu />
 
-        <aside class="restaurant-menu-copy" aria-labelledby="restaurant-menu-heading">
-          <span class="restaurant-menu-icon" aria-hidden="true"><IconSymbol name="cloche" /></span>
-          <h2 id="restaurant-menu-heading">Наш јеловник</h2>
-          <p>
-            Погледајте избор домаћих јела — од доручка и предјела до јела са жара,
-            припремљених по провереним рецептима.
-          </p>
-          <a class="restaurant-menu-call" :href="venue.tel">
-            Позовите нас за више детаља <IconSymbol name="phone" />
-          </a>
-        </aside>
-      </div>
-
+    </div>
       <div class="restaurant-food">
-        <RestaurantSpecialtiesGallery
+        <PhotoGallery
           :images="foodImages"
+          heading="Специјалитети наше кухиње"
+          description="Уживајте у аутентичним јелима домаће кухиње, припремљеним по традиционалним рецептима нашег краја."
           label="Фотографије хране и амбијента ресторана"
         />
       </div>
-    </div>
   </section>
 </template>
