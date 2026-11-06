@@ -748,6 +748,9 @@ h3 {
 }
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
   justify-content: space-between;
   border-top: 1px solid #66765b;
   padding-top: 20px;
@@ -755,6 +758,9 @@ h3 {
   font-size: 0.62rem;
   color: #c3cbb9;
 }
+.footer-credit { white-space: nowrap; }
+.footer-credit a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.footer-credit a:hover, .footer-credit a:focus-visible { color: #fff; }
 .skip-link {
   position: fixed;
   top: 10px;

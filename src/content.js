@@ -130,6 +130,11 @@ export const copy = {
     tiktok: "Пратите нас на ТикТоку",
     copyright: "Етно село ДУКАТ",
     bottom: "Мислођин · Србија",
+    credit: {
+      label: "Израда сајта",
+      name: "MIBIT Software",
+      url: "https://mibitsoftware.com/",
+    },
   },
   imageNotice: "Илустрација — није фотографија објекта",
 };

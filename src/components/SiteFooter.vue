@@ -45,6 +45,10 @@ const home = () => (props.depth ? "../" : "./");
     <div class="wrap footer-bottom">
       <span>© {{ new Date().getFullYear() }} {{ copy.footer.copyright }}</span>
       <span>{{ copy.footer.bottom }}</span>
+      <span class="footer-credit">
+        {{ copy.footer.credit.label }}:
+        <a :href="copy.footer.credit.url" target="_blank" rel="noopener noreferrer">{{ copy.footer.credit.name }}</a>
+      </span>
     </div>
   </footer>
 </template>
