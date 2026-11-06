@@ -34,6 +34,15 @@ When removing an image, check content declarations, Vue components, CSS backgrou
 
 Photo processing preserves full source dimensions. Existing JPEG/WebP images retain their original bytes at native size. PNG photographs use WebP quality 90/94; text and transparent artwork use lossless WebP. Images marked illustrative are generated artwork. The banner and two active images in `public/images/retouched/` were processed with AI and may contain reconstructed details.
 
+The celebration gallery's hall photo uses `public/images/retouched/celebration-gallery-1-contrast-v3.png`, finished with the built-in image generation tool for slightly stronger contrast, warmer wood and clearer existing detail. Its predecessor, `celebration-gallery-1-clarity-v2.png`, is retained for rollback. The adjacent `celebrations/celebration-owner-01.png` served as a tonal reference. This is an AI photo edit; the prompt requests preservation of the scene and framing.
+
+<details>
+<summary>Hall photo v3: final editing prompt</summary>
+
+Edit target: FIRST image, the portrait restaurant hall photograph. SECOND image is a tonal reference only, showing the same venue with richer warm wood, stronger clean contrast and crisp detail. Apply a restrained professional photo-finishing pass to the FIRST image so it fits the other gallery photos: modestly deepen blacks and wood tones, increase midtone/local contrast a little, add a small amount of natural saturation and warmth, and improve perceived sharpness on existing wood grain, chairs, tablecloth patterns and glassware. Preserve white walls/tablecloths as neutral clean whites and keep shadow detail. Keep this looking like a real photo, not HDR or an illustration. Preserve EXACT first-image camera viewpoint, portrait 3:4 framing, image boundaries, all objects, chairs, furniture positions, wall decorations, signs and any text, beams, ceiling, lamps, materials, proportions and lighting direction. Do not borrow any composition or objects from the second image. No additions, removals, retouching of the architecture, invented texture, crop, reframing, perspective correction, excessive orange cast, sharpening halos, oversaturation or crushed shadows. The change should be visible but tasteful: a slightly punchier, clearer version of the exact first photo. Output a portrait 3:4 image, ideally at the original 1086 by 1448 dimensions.
+
+</details>
+
 ## Hosting
 
 The build creates Brotli and gzip copies of HTML, JavaScript, CSS and SVG. Configure the host to negotiate these using Accept-Encoding, with the matching Content-Encoding, original Content-Type and Vary: Accept-Encoding.

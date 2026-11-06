@@ -25,7 +25,7 @@ async function walk(directory) {
     // Text/line art and transparent decorations use lossless WebP. No sharpening,
     // cropping, upscaling or arbitrary full-size resolution cap is applied.
     const lossless = logo || metadata.hasAlpha || /^(menu-|celebration-offer|wednesday-poster)/.test(entry.name);
-    const detailedPhoto = /^(magaza-|stay-gallery-|stay-hero-|celebration-gallery-1-clarity-v2)/.test(entry.name);
+    const detailedPhoto = /^(magaza-|stay-gallery-|stay-hero-|celebration-gallery-1-(clarity-v2|contrast-v3))/.test(entry.name);
     const quality = detailedPhoto ? 94 : 90;
     const preserveOriginal = /\.(jpe?g|webp)$/i.test(entry.name);
     const maxWidth = width;
