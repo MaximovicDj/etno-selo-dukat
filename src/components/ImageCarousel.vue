@@ -3,6 +3,9 @@
 import { computed, ref } from "vue";
 import VenueImage from "./VenueImage.vue";
 import IconSymbol from "./IconSymbol.vue";
+import { imageSource } from '../imageSources';
+import ResponsiveImage from './ResponsiveImage.vue';
+import { menuSizes } from '../imageSources';
 
 const props = defineProps({
   images: { type: Array, required: true },
@@ -10,6 +13,7 @@ const props = defineProps({
   variant: { type: String, default: "single" },
   startIndex: { type: Number, default: 0 },
   fullscreen: Boolean,
+  eager: Boolean,
 });
 
 defineEmits(["open"]);
@@ -146,7 +150,8 @@ function swipe(event) {
         >
           <img
             class="featured-gallery-backdrop"
-            :src="publicSource(images[active].src)"
+            :src="imageSource(images[active].src, 160)"
+            loading="lazy"
             alt=""
             aria-hidden="true"
           />
@@ -188,7 +193,7 @@ function swipe(event) {
           rel="noopener noreferrer"
           :aria-label="`Отвори у пуној величини: ${image.label}`"
         >
-          <VenueImage :image="image" />
+          <VenueImage :image="image" :eager="eager && index === active" :sizes="menuSizes" />
         </a>
         <button
           v-else-if="fullscreen"
@@ -197,9 +202,9 @@ function swipe(event) {
           :aria-label="`Увећај слику: ${image.label}`"
           @click="$emit('open', image)"
         >
-          <VenueImage :image="image" />
+          <VenueImage :image="image" :eager="eager && index === active" />
         </button>
-        <VenueImage v-else :image="image" />
+        <VenueImage v-else :image="image" :eager="eager && index === active" />
       </div>
     </div>
     <div
@@ -233,12 +238,9 @@ function swipe(event) {
         :aria-pressed="active === index"
         @click="active = index"
       >
-        <img
-          :src="publicSource(image.src)"
+        <ResponsiveImage
+          :source="image.src"
           alt=""
-          loading="lazy"
-          width="100"
-          height="70"
         />
       </button>
     </div>

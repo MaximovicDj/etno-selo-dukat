@@ -1,38 +1,7 @@
 <script setup>
-
-import { nextTick, ref } from "vue";
-import RestaurantSpecialtiesGallery from "./RestaurantSpecialtiesGallery.vue";
-import IconSymbol from "./IconSymbol.vue";
-import {
-  celebration as content,
-  celebrationGalleryImages as galleryImages,
-  venue,
-} from "../content";
-
-const selectedImage = ref(0);
-const lightboxOpen = ref(false);
-const lightboxDialog = ref(null);
-const imageOpenButton = ref(null);
-
-async function openLightbox(image) {
-  selectedImage.value = galleryImages.indexOf(image);
-  imageOpenButton.value = document.activeElement;
-  lightboxOpen.value = true;
-  await nextTick();
-  lightboxDialog.value?.showModal();
-}
-
-async function closeLightbox() {
-  lightboxDialog.value?.close();
-  lightboxOpen.value = false;
-  await nextTick();
-  imageOpenButton.value?.focus();
-}
-
-function moveImage(step) {
-  selectedImage.value =
-    (selectedImage.value + step + galleryImages.length) % galleryImages.length;
-}
+import PhotoGallery from './PhotoGallery.vue';
+import IconSymbol from './IconSymbol.vue';
+import { celebration as content, celebrationGalleryImages as galleryImages, venue } from '../content';
 </script>
 
 <template>
@@ -41,31 +10,22 @@ function moveImage(step) {
     class="celebration-section section-space"
     aria-labelledby="celebration-heading"
   >
-    <div class="wrap">
-      <div class="celebration-intro celebration-intro--gallery">
-        <div class="celebration-copy">
-          <p class="eyebrow">{{ content.eyebrow }}</p>
-          <h2 id="celebration-heading">{{ content.title }}</h2>
-          <p>{{ content.description }}</p>
-        </div>
-        <RestaurantSpecialtiesGallery
-          :images="galleryImages"
-          :label="content.galleryTitle"
-          hide-heading
-          fullscreen
-          @open="openLightbox"
-        />
-        <div class="celebration-gallery-footer">
-          <div>
-            <p class="celebration-gallery-capacity">Прославе до 70 гостију</p>
-            <p class="celebration-gallery-menu">Мени прилагођавамо вашим жељама</p>
-          </div>
-          <a class="button button-dark" :href="venue.tel">
-            {{ content.cta }} <IconSymbol name="phone" />
-          </a>
-        </div>
+    <div class="wrap celebration-gallery-heading">
+      <div class="celebration-copy">
+        <p class="eyebrow">{{ content.eyebrow }}</p>
+        <h2 id="celebration-heading">{{ content.title }}</h2>
+        <p>{{ content.description }}</p>
       </div>
-
+    </div>
+    <PhotoGallery :images="galleryImages" :label="content.galleryTitle" eager />
+    <div class="wrap">
+      <div class="celebration-gallery-footer">
+        <div>
+          <p class="celebration-gallery-capacity">Прославе до 70 гостију</p>
+          <p class="celebration-gallery-menu">Мени прилагођавамо вашим жељама</p>
+        </div>
+        <a class="button button-dark" :href="venue.tel">{{ content.cta }}<IconSymbol name="phone" /></a>
+      </div>
       <div
         class="celebration-pricing celebration-offer-board"
         aria-labelledby="pricing-heading"
@@ -118,48 +78,4 @@ function moveImage(step) {
       </div>
     </div>
   </section>
-  <Teleport to="body">
-    <dialog
-      v-if="lightboxOpen"
-      ref="lightboxDialog"
-      class="stay-lightbox celebration-lightbox"
-      :aria-label="content.galleryTitle"
-      @cancel.prevent="closeLightbox"
-      @click.self="closeLightbox"
-      @keydown.left.prevent="moveImage(-1)"
-      @keydown.right.prevent="moveImage(1)"
-    >
-      <button
-        type="button"
-        class="stay-lightbox-close"
-        aria-label="Затвори фотографију"
-        autofocus
-        @click="closeLightbox"
-      >
-        ×
-      </button>
-      <button
-        type="button"
-        class="stay-lightbox-nav stay-lightbox-prev"
-        aria-label="Претходна фотографија"
-        @click="moveImage(-1)"
-      >
-        <IconSymbol name="arrow-left" />
-      </button>
-      <img
-        :src="`/${galleryImages[selectedImage].src}`"
-        :alt="galleryImages[selectedImage].alt"
-        draggable="false"
-        @mousedown.prevent
-      />
-      <button
-        type="button"
-        class="stay-lightbox-nav stay-lightbox-next"
-        aria-label="Следећа фотографија"
-        @click="moveImage(1)"
-      >
-        <IconSymbol name="arrow-right" />
-      </button>
-    </dialog>
-  </Teleport>
 </template>

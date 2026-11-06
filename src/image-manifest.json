@@ -1,0 +1,3142 @@
+{
+  "images/animal-cats-real.jpg": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/animal-cats-real-afa16458e3-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/animal-cats-real-afa16458e3-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/animal-cats-real-afa16458e3-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/animal-cats-real-afa16458e3-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/animal-cats-real-afa16458e3-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/animal-cats-real-afa16458e3-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/animal-cats-real-afa16458e3-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/animal-cats-real-afa16458e3-1448.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/animal-duka.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/animal-duka-b0330c06fd-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/animal-duka-b0330c06fd-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/animal-duka-b0330c06fd-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/animal-duka-b0330c06fd-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/animal-duka-b0330c06fd-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/animal-duka-b0330c06fd-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/animal-duka-b0330c06fd-1086.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/animal-goats-real.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/animal-goats-real-083153b08e-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/animal-goats-real-083153b08e-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/animal-goats-real-083153b08e-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 961,
+      "src": "images/optimized/animal-goats-real-083153b08e-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1153,
+      "src": "images/optimized/animal-goats-real-083153b08e-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 959,
+      "height": 1440,
+      "src": "images/optimized/animal-goats-real-083153b08e-959.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/animal-pigeon-real-1.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 962,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1154,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 852,
+      "height": 1280,
+      "src": "images/optimized/animal-pigeon-real-1-0992002a2b-852.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/animal-pigeon-real-2.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 961,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1153,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 959,
+      "height": 1440,
+      "src": "images/optimized/animal-pigeon-real-2-be0eb48e12-959.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/animal-pony-reference-crop.png": [
+    {
+      "width": 160,
+      "height": 113,
+      "src": "images/optimized/animal-pony-reference-crop-7beabef18c-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 225,
+      "src": "images/optimized/animal-pony-reference-crop-7beabef18c-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 355,
+      "height": 250,
+      "src": "images/optimized/animal-pony-reference-crop-7beabef18c-355.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/celebration-hall-wide.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/celebration-hall-wide-67d3bd7052-1086.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/celebration-offer.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/celebration-offer-24a968dae3-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "src": "images/optimized/celebration-offer-24a968dae3-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 720,
+      "src": "images/optimized/celebration-offer-24a968dae3-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 960,
+      "src": "images/optimized/celebration-offer-24a968dae3-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 1152,
+      "src": "images/optimized/celebration-offer-24a968dae3-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 1440,
+      "src": "images/optimized/celebration-offer-24a968dae3-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1024,
+      "height": 1536,
+      "src": "images/optimized/celebration-offer-24a968dae3-1024.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/celebrations/celebration-owner-01.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-01-b8c78097a1-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-owner-03.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-03-5a050c8595-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-owner-04.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-04-3e0d03bb10-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/dukat-banner-optimized.webp": [
+    {
+      "width": 160,
+      "height": 179,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 358,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 537,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 716,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 859,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1073,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1186,
+      "height": 1326,
+      "src": "images/optimized/dukat-banner-optimized-e05b197e51-1186.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-fotografija-01.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/dukat-fotografija-01-3a0ff63e8f-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-fotografija-02.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/dukat-fotografija-02-1ed2e41c95-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-fotografija-05.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/dukat-fotografija-05-9c2dcffda1-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-fotografija-07.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/dukat-fotografija-07-8d5c6cf54f-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-fotografija-08.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/dukat-fotografija-08-52e8255a7d-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/dukat-logo-enhanced.png": [
+    {
+      "width": 80,
+      "height": 80,
+      "src": "images/optimized/dukat-logo-enhanced-0be502081b-80.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 160,
+      "height": 160,
+      "src": "images/optimized/dukat-logo-enhanced-0be502081b-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 240,
+      "height": 240,
+      "src": "images/optimized/dukat-logo-enhanced-0be502081b-240.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1254,
+      "height": 1254,
+      "src": "images/optimized/dukat-logo-enhanced-0be502081b-1254.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/dukat-venue-cleaned.png": [
+    {
+      "width": 160,
+      "height": 160,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 320,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 480,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 640,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 768,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 960,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1254,
+      "height": 1254,
+      "src": "images/optimized/dukat-venue-cleaned-b344fcd9a5-1254.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/family-animals.webp": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/family-animals-36f67c3c92-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/family-animals-36f67c3c92-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/family-animals-36f67c3c92-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/family-animals-36f67c3c92-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/family-animals-36f67c3c92-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/family-animals-36f67c3c92-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/family-animals-36f67c3c92-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "src": "images/optimized/family-animals-36f67c3c92-1440.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/food/breakfast-platter.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/breakfast-platter-040e53b008-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/breakfast-platter-040e53b008-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/breakfast-platter-040e53b008-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/breakfast-platter-040e53b008-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/breakfast-platter-040e53b008-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/breakfast-platter-040e53b008-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/breakfast-platter-040e53b008-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/breakfast-platter-040e53b008-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/burger-plates.png": [
+    {
+      "width": 160,
+      "height": 90,
+      "src": "images/optimized/burger-plates-daa6955334-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "src": "images/optimized/burger-plates-daa6955334-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "src": "images/optimized/burger-plates-daa6955334-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "src": "images/optimized/burger-plates-daa6955334-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 432,
+      "src": "images/optimized/burger-plates-daa6955334-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "src": "images/optimized/burger-plates-daa6955334-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "src": "images/optimized/burger-plates-daa6955334-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "src": "images/optimized/burger-plates-daa6955334-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "src": "images/optimized/burger-plates-daa6955334-1672.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/cevapi-garden.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/cevapi-garden-617747ced8-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/cevapi-garden-617747ced8-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/cevapi-garden-617747ced8-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/cevapi-garden-617747ced8-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/cevapi-garden-617747ced8-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/cevapi-garden-617747ced8-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/cevapi-garden-617747ced8-1086.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/charcuterie-platter.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 854,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1535,
+      "height": 1024,
+      "src": "images/optimized/charcuterie-platter-a52e5ef162-1535.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/creamy-rice.png": [
+    {
+      "width": 160,
+      "height": 90,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 432,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 541,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 721,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 865,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1671,
+      "height": 941,
+      "src": "images/optimized/creamy-rice-7f7637b2a0-1671.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/croquette-platter.png": [
+    {
+      "width": 160,
+      "height": 72,
+      "src": "images/optimized/croquette-platter-4a86e5813b-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 144,
+      "src": "images/optimized/croquette-platter-4a86e5813b-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 216,
+      "src": "images/optimized/croquette-platter-4a86e5813b-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 288,
+      "src": "images/optimized/croquette-platter-4a86e5813b-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 345,
+      "src": "images/optimized/croquette-platter-4a86e5813b-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 432,
+      "src": "images/optimized/croquette-platter-4a86e5813b-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 576,
+      "src": "images/optimized/croquette-platter-4a86e5813b-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 691,
+      "src": "images/optimized/croquette-platter-4a86e5813b-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1870,
+      "height": 841,
+      "src": "images/optimized/croquette-platter-4a86e5813b-1870.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/garden-salads.png": [
+    {
+      "width": 160,
+      "height": 74,
+      "src": "images/optimized/garden-salads-fee5cbecc3-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 148,
+      "src": "images/optimized/garden-salads-fee5cbecc3-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 222,
+      "src": "images/optimized/garden-salads-fee5cbecc3-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 295,
+      "src": "images/optimized/garden-salads-fee5cbecc3-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 354,
+      "src": "images/optimized/garden-salads-fee5cbecc3-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 443,
+      "src": "images/optimized/garden-salads-fee5cbecc3-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 591,
+      "src": "images/optimized/garden-salads-fee5cbecc3-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 709,
+      "src": "images/optimized/garden-salads-fee5cbecc3-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1846,
+      "height": 852,
+      "src": "images/optimized/garden-salads-fee5cbecc3-1846.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/glazed-ribs-pickles.png": [
+    {
+      "width": 160,
+      "height": 90,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 432,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "src": "images/optimized/glazed-ribs-pickles-dfa13e5198-1672.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/glazed-ribs-slaw.png": [
+    {
+      "width": 160,
+      "height": 72,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 144,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 216,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 288,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 345,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 432,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 576,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 691,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1870,
+      "height": 841,
+      "src": "images/optimized/glazed-ribs-slaw-b9f7af392a-1870.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/grilled-fish.png": [
+    {
+      "width": 160,
+      "height": 90,
+      "src": "images/optimized/grilled-fish-e0b2a95481-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 180,
+      "src": "images/optimized/grilled-fish-e0b2a95481-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "src": "images/optimized/grilled-fish-e0b2a95481-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 361,
+      "src": "images/optimized/grilled-fish-e0b2a95481-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 433,
+      "src": "images/optimized/grilled-fish-e0b2a95481-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 541,
+      "src": "images/optimized/grilled-fish-e0b2a95481-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 721,
+      "src": "images/optimized/grilled-fish-e0b2a95481-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 865,
+      "src": "images/optimized/grilled-fish-e0b2a95481-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1670,
+      "height": 941,
+      "src": "images/optimized/grilled-fish-e0b2a95481-1670.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/grilled-sandwich.png": [
+    {
+      "width": 160,
+      "height": 72,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 144,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 216,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 288,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 345,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 432,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 576,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 691,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1870,
+      "height": 841,
+      "src": "images/optimized/grilled-sandwich-76af2de5f1-1870.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/lamb-ribs.png": [
+    {
+      "width": 160,
+      "height": 72,
+      "src": "images/optimized/lamb-ribs-df77bf359a-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 144,
+      "src": "images/optimized/lamb-ribs-df77bf359a-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 216,
+      "src": "images/optimized/lamb-ribs-df77bf359a-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 288,
+      "src": "images/optimized/lamb-ribs-df77bf359a-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 346,
+      "src": "images/optimized/lamb-ribs-df77bf359a-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 432,
+      "src": "images/optimized/lamb-ribs-df77bf359a-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 577,
+      "src": "images/optimized/lamb-ribs-df77bf359a-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 692,
+      "src": "images/optimized/lamb-ribs-df77bf359a-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1869,
+      "height": 842,
+      "src": "images/optimized/lamb-ribs-df77bf359a-1869.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/lettuce-salad.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/lettuce-salad-88fb17c27d-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/food/tomato-risotto.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/tomato-risotto-507f136273-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/tomato-risotto-507f136273-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/tomato-risotto-507f136273-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/tomato-risotto-507f136273-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/tomato-risotto-507f136273-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/tomato-risotto-507f136273-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/tomato-risotto-507f136273-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "src": "images/optimized/tomato-risotto-507f136273-1536.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/gallery-village-1.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 962,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1154,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 852,
+      "height": 1280,
+      "src": "images/optimized/gallery-village-1-c6e823fb93-852.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/garden-table.webp": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/garden-table-c60114b3ec-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/garden-table-c60114b3ec-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/garden-table-c60114b3ec-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/garden-table-c60114b3ec-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/garden-table-c60114b3ec-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/garden-table-c60114b3ec-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1200,
+      "height": 800,
+      "src": "images/optimized/garden-table-c60114b3ec-1200.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/home-highlights-ethno-watermark.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "src": "images/optimized/home-highlights-ethno-watermark-c437d2def5-1536.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/homemade-table.webp": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/homemade-table-cfab4bce2d-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/homemade-table-cfab4bce2d-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/homemade-table-cfab4bce2d-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/homemade-table-cfab4bce2d-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/homemade-table-cfab4bce2d-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/homemade-table-cfab4bce2d-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/homemade-table-cfab4bce2d-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "src": "images/optimized/homemade-table-cfab4bce2d-1440.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/magaza-1-interior-1.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/magaza-1-interior-1-9507269835-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-1-interior-2.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/magaza-1-interior-2-403821f237-1448.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-1-interior-3.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/magaza-1-interior-3-c55e0ba276-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-1.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-1-2cc5992771-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-1-2cc5992771-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-1-2cc5992771-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-1-2cc5992771-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-1-2cc5992771-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-1-2cc5992771-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/magaza-1-2cc5992771-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-2-interior-1.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/magaza-2-interior-1-7ef7410e40-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/magaza-2-interior-2.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/magaza-2-interior-2-ebbc258870-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/magaza-2-interior-3.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/magaza-2-interior-3-302d67d44c-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/magaza-2-interior-4.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/magaza-2-interior-4-9edd3193e0-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/magaza-2.png": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/magaza-2-45d227645c-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "src": "images/optimized/magaza-2-45d227645c-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 720,
+      "src": "images/optimized/magaza-2-45d227645c-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 960,
+      "src": "images/optimized/magaza-2-45d227645c-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1152,
+      "src": "images/optimized/magaza-2-45d227645c-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1440,
+      "src": "images/optimized/magaza-2-45d227645c-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1024,
+      "height": 1536,
+      "src": "images/optimized/magaza-2-45d227645c-1024.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-3.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/magaza-3-45d0b94325-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/magaza-3-45d0b94325-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/magaza-3-45d0b94325-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/magaza-3-45d0b94325-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/magaza-3-45d0b94325-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/magaza-3-45d0b94325-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/magaza-3-45d0b94325-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/magaza-cottage.webp": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/magaza-cottage-b6dc021894-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/magaza-cottage-b6dc021894-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/magaza-cottage-b6dc021894-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/magaza-cottage-b6dc021894-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/magaza-cottage-b6dc021894-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/magaza-cottage-b6dc021894-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/magaza-cottage-b6dc021894-1280.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "src": "images/optimized/magaza-cottage-b6dc021894-1440.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/menu-domacinski-uranak.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "src": "images/optimized/menu-domacinski-uranak-098eb85182-1536.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/menu-hajducka-trpeza.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "src": "images/optimized/menu-hajducka-trpeza-cae5a1b0a7-1536.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/menu-megdan-na-zaru.png": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 853,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "src": "images/optimized/menu-megdan-na-zaru-1baa536202-1536.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/playground-1.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/playground-1-53786e5daa-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/playground-1-53786e5daa-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/playground-1-53786e5daa-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 962,
+      "src": "images/optimized/playground-1-53786e5daa-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1154,
+      "src": "images/optimized/playground-1-53786e5daa-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 852,
+      "height": 1280,
+      "src": "images/optimized/playground-1-53786e5daa-852.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/playground-2.jpg": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/playground-2-bed00c95b8-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 481,
+      "src": "images/optimized/playground-2-bed00c95b8-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 721,
+      "src": "images/optimized/playground-2-bed00c95b8-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 962,
+      "src": "images/optimized/playground-2-bed00c95b8-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1154,
+      "src": "images/optimized/playground-2-bed00c95b8-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 852,
+      "height": 1280,
+      "src": "images/optimized/playground-2-bed00c95b8-852.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/playground-3.jpg": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/playground-3-b30e379e75-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/playground-3-b30e379e75-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/playground-3-b30e379e75-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/playground-3-b30e379e75-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/playground-3-b30e379e75-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/playground-3-b30e379e75-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1279,
+      "height": 853,
+      "src": "images/optimized/playground-3-b30e379e75-1279.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/playground-bottom-illustration.png": [
+    {
+      "width": 160,
+      "height": 53,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 107,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 160,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 213,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 256,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 320,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 427,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 512,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-1536.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 2172,
+      "height": 724,
+      "src": "images/optimized/playground-bottom-illustration-2f3e2f4a0a-2172.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/playground-chair-drawing.jpg": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/playground-chair-drawing-bc6a24e38e-1536.jpg",
+      "encoding": "original"
+    }
+  ],
+  "images/restaurant-highlight-card.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/restaurant-highlight-card-463cc94499-1086.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/restaurant-homestead-watermark.png": [
+    {
+      "width": 160,
+      "height": 80,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 160,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 240,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 320,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 384,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 480,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-1280.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1536,
+      "height": 768,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-1536.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1774,
+      "height": 887,
+      "src": "images/optimized/restaurant-homestead-watermark-ddfc576113-1774.webp",
+      "encoding": "lossless"
+    }
+  ],
+  "images/retouched/celebration-gallery-1-clarity-v2.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/celebration-gallery-1-clarity-v2-a455cfe4c0-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/retouched/stay-gallery-courtyard-sign-natural-v1.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/stay-gallery-courtyard-sign-natural-v1-b85fe49ccd-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/rural-garden.webp": [
+    {
+      "width": 160,
+      "height": 80,
+      "src": "images/optimized/rural-garden-959b9df8b8-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 160,
+      "src": "images/optimized/rural-garden-959b9df8b8-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 240,
+      "src": "images/optimized/rural-garden-959b9df8b8-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 320,
+      "src": "images/optimized/rural-garden-959b9df8b8-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 384,
+      "src": "images/optimized/rural-garden-959b9df8b8-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 480,
+      "src": "images/optimized/rural-garden-959b9df8b8-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "src": "images/optimized/rural-garden-959b9df8b8-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1440,
+      "height": 720,
+      "src": "images/optimized/rural-garden-959b9df8b8-1440.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/rustic-bread.webp": [
+    {
+      "width": 160,
+      "height": 107,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 213,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 320,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 427,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 512,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 640,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1200,
+      "height": 800,
+      "src": "images/optimized/rustic-bread-5d5a65ce42-1200.webp",
+      "encoding": "original"
+    }
+  ],
+  "images/stay-gallery-garden-retreat.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/stay-gallery-garden-retreat-ebf971486f-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/stay-gallery-yard-tools.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1086,
+      "height": 1448,
+      "src": "images/optimized/stay-gallery-yard-tools-951360183a-1086.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/stay-hero-blue-cottage.png": [
+    {
+      "width": 160,
+      "height": 240,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-160.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 320,
+      "height": 480,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-320.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 480,
+      "height": 720,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-480.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 640,
+      "height": 960,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-640.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 768,
+      "height": 1152,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-768.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 960,
+      "height": 1440,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-960.webp",
+      "encoding": "q94"
+    },
+    {
+      "width": 1024,
+      "height": 1536,
+      "src": "images/optimized/stay-hero-blue-cottage-45d227645c-1024.webp",
+      "encoding": "q94"
+    }
+  ],
+  "images/wednesday-poster.webp": [
+    {
+      "width": 160,
+      "height": 227,
+      "src": "images/optimized/wednesday-poster-b3b0acee3b-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 454,
+      "src": "images/optimized/wednesday-poster-b3b0acee3b-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 456,
+      "height": 647,
+      "src": "images/optimized/wednesday-poster-b3b0acee3b-456.webp",
+      "encoding": "original"
+    }
+  ]
+}

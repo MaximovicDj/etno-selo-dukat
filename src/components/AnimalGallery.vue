@@ -2,7 +2,7 @@
 
 import { computed, ref } from "vue";
 import VenueImage from "./VenueImage.vue";
-import ImageCarousel from "./ImageCarousel.vue";
+import PhotoGallery from "./PhotoGallery.vue";
 import IconSymbol from "./IconSymbol.vue";
 import { copy, animalGallery, playgroundImages } from "../content";
 
@@ -56,9 +56,6 @@ function move(step) {
                 <span class="animal-feature-icon">
                   <IconSymbol :name="animal.icon" />
                 </span>
-                <p class="animal-number">
-                  {{ String(animalGallery.indexOf(animal) + 1).padStart(2, "0") }}
-                </p>
                 <h3>{{ animal.name }}</h3>
                 <p>{{ animal.description }}</p>
               </div>
@@ -86,18 +83,17 @@ function move(step) {
         </p>
       </div>
 
-      <div class="playground-gallery" aria-labelledby="playground-heading">
-        <div class="playground-heading">
+    </div>
+    <div class="playground-gallery" aria-labelledby="playground-heading">
+      <div class="playground-heading wrap">
           <p class="eyebrow"><IconSymbol name="playground" /> МЕСТО ЗА ИГРУ</p>
           <h3 id="playground-heading">Мале авантуре у башти.</h3>
           <p>Простор за игру, забаву и истраживање природе.</p>
         </div>
-        <ImageCarousel
-          :images="playgroundImages"
-          label="Галерија дечјег игралишта"
-          variant="playground"
-        />
-      </div>
+      <PhotoGallery
+        :images="playgroundImages"
+        label="Галерија дечјег игралишта"
+      />
     </div>
   </section>
 </template>

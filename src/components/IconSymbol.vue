@@ -4,7 +4,9 @@ defineProps({ name: { type: String, required: true } });
 
 <template>
   <svg class="icon-symbol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-    <template v-if="name === 'phone'">
+    <template v-if="name === 'zoom-in'"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5M10.5 7.5v6M7.5 10.5h6" /></template>
+    <template v-else-if="name === 'close'"><path d="m6 6 12 12M6 18 18 6" /></template>
+    <template v-else-if="name === 'phone'">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.78.65 2.63a2 2 0 0 1-.45 2.11L8.04 9.73a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.31 1.73.53 2.63.65A2 2 0 0 1 22 16.92Z" />
     </template>
     <template v-else-if="name === 'map-pin'">

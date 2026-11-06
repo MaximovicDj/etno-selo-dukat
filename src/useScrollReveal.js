@@ -1,7 +1,9 @@
 import { onMounted, onUnmounted } from "vue";
+import { useDeferredBackgrounds } from './useDeferredBackgrounds';
 
 // Progressive enhancement: content stays visible without JavaScript/observer support.
 export function useScrollReveal() {
+  useDeferredBackgrounds();
   let observer;
   let media;
   let targets = [];

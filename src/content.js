@@ -358,7 +358,7 @@ export const playgroundImages = [
 // смештаја како би се обе целине могле уређивати независно.
 export const homeGalleryImages = [
   {
-    src: "images/stay-gallery-courtyard-sign.png",
+    src: "images/retouched/stay-gallery-courtyard-sign-natural-v1.png",
     alt: "Двориште Етно села ДУКАТ са дрвеним знаком и каменом стазом.",
     width: 1080,
     height: 1440,
@@ -438,7 +438,7 @@ export const galleryImages = [
     label: "Магаза 1 — унутрашњост",
   },
   {
-    src: "images/stay-gallery-courtyard-sign.png",
+    src: "images/retouched/stay-gallery-courtyard-sign-natural-v1.png",
     alt: "Двориште Етно села ДУКАТ са дрвеним знаком и каменом стазом.",
     width: 1080,
     height: 1440,
@@ -742,39 +742,31 @@ export const celebration = {
 
 export const celebrationGalleryImages = [
   {
-    src: "images/celebration-gallery-1.png",
+    src: "images/retouched/celebration-gallery-1-clarity-v2.png",
     width: 1086,
     height: 1448,
+    label: "Сала ресторана",
     alt: "Постављени столови и дрвене греде у сали за прославе Етно села ДУКАТ.",
   },
   {
-    src: "images/celebration-gallery-2.png",
-    width: 480,
-    height: 640,
-    alt: "Сала за прославе са традиционалним украсима и топлим осветљењем.",
+    src: "images/celebrations/celebration-owner-01.png",
+    width: 1448,
+    height: 1086,
+    label: "Трпеза поред прозора",
+    alt: "Столови са белим столњацима, дрвене столице и традиционални предмети на зиду поред прозора сале.",
   },
   {
-    src: "images/celebration-gallery-3.png",
-    width: 576,
-    height: 768,
-    alt: "Поглед на столове и етно детаље у пространој сали ДУКАТ.",
+    src: "images/celebrations/celebration-owner-03.png",
+    width: 1448,
+    height: 1086,
+    label: "Етно детаљи и домаћа атмосфера",
+    alt: "Трпезе са дрвеним столицама испод прозора и шарених традиционалних тканина на зидовима сале.",
   },
   {
-    src: "images/celebration-gallery-4.png",
-    width: 480,
-    height: 640,
-    alt: "Трпеза за госте поред витрине са традиционалним предметима.",
-  },
-  {
-    src: "images/celebration-gallery-5.png",
-    width: 1368,
-    height: 1824,
-    alt: "Постављени столови у сали Етно села ДУКАТ под дрвеним гредама.",
-  },
-  {
-    src: "images/celebration-gallery-6.png",
-    width: 1368,
-    height: 1824,
-    alt: "Сала за прославе са дрвеним шанком и традиционалним украсима.",
+    src: "images/celebrations/celebration-owner-04.png",
+    width: 1448,
+    height: 1086,
+    label: "Кутак за породична окупљања",
+    alt: "Сто са белим столњаком и бордо надстолњаком, окружен дрвеним столицама и етно украсима.",
   },
 ];
