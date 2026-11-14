@@ -139,14 +139,6 @@ export const copy = {
   imageNotice: "Илустрација — није фотографија објекта",
 };
 export const images = {
-  venue: {
-    src: "images/dukat-venue-cleaned.png",
-    alt: "Дрвена табла Етно село Дукат, традиционални предмети и зеленило у дворишту.",
-    illustrative: false,
-    width: 1536,
-    height: 1536,
-    label: "Добро дошли у ДУКАТ",
-  },
   poster: {
     src: "images/wednesday-poster.webp",
     alt: "Плакат Етно села ДУКАТ: среда је дан за домаћу кухињу, домаћа кувана јела по 400 динара. За данашњи избор јела позовите 064 005 0106.",
@@ -154,18 +146,6 @@ export const images = {
     width: 456,
     height: 647,
     label: "Среда је дан за домаћу кухињу",
-  },
-  garden: {
-    src: "images/rural-garden.webp",
-    alt: "Илустрација замишљене сеоске баште са дрвеном кућом и столовима под крошњама.",
-    illustrative: true,
-    label: "Предах у зеленилу",
-  },
-  food: {
-    src: "images/homemade-table.webp",
-    alt: "Илустрација домаћег ручка у земљаним посудама на рустичном столу.",
-    illustrative: true,
-    label: "Укуси домаће кухиње",
   },
   restaurantCard: {
     src: "images/restaurant-highlight-card.png",
@@ -175,12 +155,6 @@ export const images = {
     height: 1448,
     label: "Домаћа трпеза",
   },
-  cottage: {
-    src: "images/magaza-cottage.webp",
-    alt: "Илустрација замишљене традиционалне дрвене магазе у зеленој башти.",
-    illustrative: true,
-    label: "Дух традиционалног дома",
-  },
   stayCard: {
     src: "images/magaza-2.png",
     alt: "Плава традиционална кућица Магазе 2 у зеленом дворишту.",
@@ -189,65 +163,18 @@ export const images = {
     height: 1536,
     label: "Плава Магаза 2",
   },
-  animals: {
-    src: "images/family-animals.webp",
-    alt: "Илустрација понија и зечева поред дрвене ограде у сеоској башти.",
-    illustrative: true,
-    label: "Радост малих сусрета",
-  },
 };
 
-// AI-restored version of the supplied venue photo. Keep the original for the gallery.
+// Restored banner used on the home page.
 export const bannerImage = {
-  ...images.venue,
+  alt: "?????? ????? ???? ???? ?????, ????????????? ???????? ? ???????? ? ????????.",
+  illustrative: false,
+  label: "????? ????? ? ?????",
   src: "images/dukat-banner-optimized.webp",
   width: 1536,
   height: 1536,
 };
 
-// These images are illustrative, never a representation of specific dishes or units.
-const illustration = (file, alt, label) => ({
-  src: `images/${file}.webp`,
-  alt,
-  label,
-  illustrative: true,
-});
-export const restaurantImages = [
-  {
-    src: "images/menu-domacinski-uranak.png",
-    alt: "Јеловник „Домаћински уранак“ са понудом доручка Етно села ДУКАТ.",
-    illustrative: false,
-    width: 1536,
-    height: 1024,
-    label: "Домаћински уранак — јеловник",
-  },
-  {
-    src: "images/menu-megdan-na-zaru.png",
-    alt: "Јеловник „Мегдан на жару“ са понудом јела са роштиља и из воде Етно села ДУКАТ.",
-    illustrative: false,
-    width: 1536,
-    height: 1024,
-    label: "Мегдан на жару — јеловник",
-  },
-  {
-    src: "images/menu-hajducka-trpeza.png",
-    alt: "Јеловник „Хајдучка трпеза“ са понудом јела са жара, из воде и пилетине Етно села ДУКАТ.",
-    illustrative: false,
-    width: 1536,
-    height: 1024,
-    label: "Хајдучка трпеза — јеловник",
-  },
-  images.food,illustration(
-    "rustic-bread",
-    "Илустрација домаћег хлеба и земљаног посуђа на везеном столњаку.",
-    "За домаћом трпезом",
-  ),
-  illustration(
-    "garden-table",
-    "Илустрација постављеног стола у башти, са шољама, бокалом и пецивом.",
-    "Још мало за столом",
-  ),
-];
 export const animalGallery = [
   {
     name: "Пони Срећко",
