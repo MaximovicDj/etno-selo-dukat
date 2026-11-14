@@ -2,6 +2,11 @@ import { readdir, readFile, writeFile, mkdir, stat, unlink } from 'node:fs/promi
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
+import { backgroundImages } from '../src/backgroundImages.js';
+import { restaurantMenu } from '../src/restaurantMenu.js';
+
+// Menu posters are opened through direct original links, never responsive images.
+const originalOnly = new Set(restaurantMenu.map(menu => menu.source));
 
 const root = 'public/images';
 const output = `${root}/optimized`;
@@ -17,6 +22,8 @@ async function walk(directory) {
       continue;
     }
     if (!/\.(png|jpe?g|webp)$/i.test(entry.name)) continue;
+    const source = file.replaceAll('\\', '/').replace(/^public\//, '');
+    if (originalOnly.has(source)) continue;
     const input = await readFile(file);
     const metadata = await sharp(input).metadata();
     const width = metadata.autoOrient?.width || metadata.width;
@@ -29,12 +36,15 @@ async function walk(directory) {
     const quality = detailedPhoto ? 94 : 90;
     const preserveOriginal = /\.(jpe?g|webp)$/i.test(entry.name);
     const maxWidth = width;
-    const widths = [...new Set((logo ? [80, 160, 240, maxWidth] : [160, 320, 480, 640, 768, 960, 1280, 1536, maxWidth]).filter(w => w <= maxWidth))].sort((a,b) => a-b);
+    // Decorations currently request only the native size; the logo renders at 64–74px.
+    const candidates = logo ? [80, 160, 240, Math.min(240, maxWidth)]
+      : backgroundImages.includes(source) ? [maxWidth]
+      : [160, 320, 480, 640, 768, 960, 1280, 1536, maxWidth];
+    const widths = [...new Set(candidates.filter(w => w <= maxWidth))].sort((a,b) => a-b);
     const settings = { version: 2, quality, lossless, effort: 6, smartSubsample: true, alphaQuality: 100 };
     const hash = createHash('sha256').update(input).update(JSON.stringify(settings)).digest('hex').slice(0, 10);
     const stem = path.basename(file, path.extname(file));
     const variants = [];
-    const source = file.replaceAll('\\', '/').replace(/^public\//, '');
     for (const size of widths) {
       // Do not re-encode an already compressed JPEG/WebP at its native size.
       if (size === width && preserveOriginal) {
