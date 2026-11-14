@@ -315,6 +315,274 @@
       "encoding": "original"
     }
   ],
+  "images/celebrations/celebration-interior-01-natural.png": [
+    {
+      "width": 160,
+      "height": 213,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 427,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 640,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 853,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 1707,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 2048,
+      "src": "images/optimized/celebration-interior-01-natural-2c28fa75de-1536.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-interior-02-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 1152,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 2048,
+      "height": 1536,
+      "src": "images/optimized/celebration-interior-02-natural-3fc0143cee-2048.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-interior-03-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 1152,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 2048,
+      "height": 1536,
+      "src": "images/optimized/celebration-interior-03-natural-2373e5872b-2048.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-interior-04-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1536,
+      "height": 1152,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-1536.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 2048,
+      "height": 1536,
+      "src": "images/optimized/celebration-interior-04-natural-890a9a85e3-2048.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-owner-01-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-01-natural-2c4439d788-1448.webp",
+      "encoding": "q90"
+    }
+  ],
   "images/celebrations/celebration-owner-01.png": [
     {
       "width": 160,
@@ -365,6 +633,56 @@
       "encoding": "q90"
     }
   ],
+  "images/celebrations/celebration-owner-03-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-03-natural-0b780e65d4-1448.webp",
+      "encoding": "q90"
+    }
+  ],
   "images/celebrations/celebration-owner-03.png": [
     {
       "width": 160,
@@ -412,6 +730,56 @@
       "width": 1448,
       "height": 1086,
       "src": "images/optimized/celebration-owner-03-5a050c8595-1448.webp",
+      "encoding": "q90"
+    }
+  ],
+  "images/celebrations/celebration-owner-04-natural.png": [
+    {
+      "width": 160,
+      "height": 120,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-160.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-320.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 480,
+      "height": 360,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-480.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-640.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 768,
+      "height": 576,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-768.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-960.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-1280.webp",
+      "encoding": "q90"
+    },
+    {
+      "width": 1448,
+      "height": 1086,
+      "src": "images/optimized/celebration-owner-04-natural-72a369975f-1448.webp",
       "encoding": "q90"
     }
   ],
