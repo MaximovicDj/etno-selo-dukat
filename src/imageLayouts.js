@@ -5,5 +5,12 @@ export function gallerySizesFor(width = 1536, height = 1024) {
   const ratio = width / height;
   return `(max-width: 699px) min(88vw, calc(clamp(285px, 84vw, 380px) * ${ratio}), ${width}px), min(60vw, calc(clamp(320px, 34vw, 500px) * ${ratio}), ${width}px)`;
 }
+
+export function lightboxSizesFor(width = 1536, height = 1024) {
+  const ratio = width / height;
+  // Match gallery.css: 60px toolbar, 54px caption and 16px desktop gutters.
+  const heightWidth = `calc((100dvh - 114px) * ${ratio})`;
+  return `(max-width: 699px) min(100vw, ${heightWidth}), min(calc(100vw - 32px), ${heightWidth})`;
+}
 export const stayHeroSizes = '(max-width: 460px) calc(100vw - 30px), (max-width: 699px) min(620px, calc(100vw - 40px)), (max-width: 1040px) calc((min(940px, calc(100vw - 56px)) - 40px) / 2), calc((min(1500px, calc(100vw - 64px)) - 32px) * 0.56)';
 export const menuSizes = '(max-width: 599px) calc(100vw - 46px), (max-width: 799px) min(676px, calc(100vw - 44px)), min(696px, calc((min(1560px, calc(100vw - 96px)) - clamp(40px, 3.2vw, 60px)) * 0.607843 - 4px), calc(min(1560px, calc(100vw - 96px)) - clamp(40px, 3.2vw, 60px) - 424px))';

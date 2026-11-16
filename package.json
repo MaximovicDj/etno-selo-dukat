@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test:gallery": "node scripts/test-gallery.mjs",
     "images:optimize": "node scripts/optimize-images.mjs",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",

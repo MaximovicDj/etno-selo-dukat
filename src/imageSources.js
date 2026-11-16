@@ -19,3 +19,8 @@ export function imageSource(source, width = Infinity) {
 export function imageSrcset(source) {
   return variants(source)?.map(image => `/${image.src} ${image.width}w`).join(', ');
 }
+
+// The preloader and the rendered image must use the same responsive candidates.
+export function responsiveImageAttributes(source, sizes) {
+  return { src: imageSource(source), srcset: imageSrcset(source), sizes };
+}

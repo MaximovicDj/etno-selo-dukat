@@ -27,7 +27,8 @@
 .image-lightbox__toolbar { display: flex; align-items: center; justify-content: flex-end; padding: 0 8px; }
 .image-lightbox__close { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid #ffffff70; border-radius: 50%; color: white; background: #ffffff14; cursor: pointer; }
 .image-lightbox__close .icon-symbol { width: 24px; height: 24px; }
-.image-lightbox__canvas { min-width: 0; min-height: 0; height: 100%; }
+.image-lightbox__canvas { position: relative; min-width: 0; min-height: 0; height: 100%; }
+.gallery-loading { position: absolute; z-index: 5; bottom: 18px; left: 50%; transform: translateX(-50%); max-width: calc(100% - 32px); padding: 8px 14px; border-radius: 20px; color: #fffaf0; background: #183a2bed; font-size: .8rem; text-align: center; pointer-events: none; }
 .image-lightbox__canvas > img { display: block; width: 100%; height: 100%; object-fit: contain; touch-action: pan-y pinch-zoom; }
 .image-lightbox__arrow { top: 50%; width: 54px; height: 54px; }
 .image-lightbox__arrow--previous { left: 20px; }
