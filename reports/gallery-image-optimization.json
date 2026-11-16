@@ -1,0 +1,167 @@
+{
+  "quality": 80,
+  "maxWidth": 1440,
+  "unit": "KiB",
+  "examples": [
+    {
+      "source": "images/retouched/stay-gallery-courtyard-sign-natural-v1.png",
+      "variants": [
+        {
+          "width": 768,
+          "height": 1024,
+          "beforeKiB": 438.4,
+          "afterKiB": 263.2,
+          "reductionPercent": 40
+        },
+        {
+          "width": 960,
+          "height": 1280,
+          "beforeKiB": 652.1,
+          "afterKiB": 385.7,
+          "reductionPercent": 40.8
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "beforeKiB": 815.2,
+          "afterKiB": 465.9,
+          "reductionPercent": 42.9
+        }
+      ]
+    },
+    {
+      "source": "images/stay-gallery-garden-retreat.png",
+      "variants": [
+        {
+          "width": 768,
+          "height": 1024,
+          "beforeKiB": 456.6,
+          "afterKiB": 284.7,
+          "reductionPercent": 37.6
+        },
+        {
+          "width": 960,
+          "height": 1280,
+          "beforeKiB": 690,
+          "afterKiB": 416.6,
+          "reductionPercent": 39.6
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "beforeKiB": 871.4,
+          "afterKiB": 517.4,
+          "reductionPercent": 40.6
+        }
+      ]
+    },
+    {
+      "source": "images/magaza-2.png",
+      "variants": [
+        {
+          "width": 768,
+          "height": 1152,
+          "beforeKiB": 506.1,
+          "afterKiB": 307.9,
+          "reductionPercent": 39.2
+        },
+        {
+          "width": 960,
+          "height": 1440,
+          "beforeKiB": 719.9,
+          "afterKiB": 413.1,
+          "reductionPercent": 42.6
+        },
+        {
+          "width": 1024,
+          "height": 1536,
+          "beforeKiB": 808.9,
+          "afterKiB": 456.8,
+          "reductionPercent": 43.5
+        }
+      ]
+    },
+    {
+      "source": "images/retouched/celebration-gallery-1-contrast-v3.png",
+      "variants": [
+        {
+          "width": 768,
+          "height": 1024,
+          "beforeKiB": 333.8,
+          "afterKiB": 173.1,
+          "reductionPercent": 48.1
+        },
+        {
+          "width": 960,
+          "height": 1280,
+          "beforeKiB": 491.4,
+          "afterKiB": 247.4,
+          "reductionPercent": 49.6
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "beforeKiB": 600.7,
+          "afterKiB": 293.1,
+          "reductionPercent": 51.2
+        }
+      ]
+    },
+    {
+      "source": "images/food/charcuterie-platter.png",
+      "variants": [
+        {
+          "width": 768,
+          "height": 512,
+          "beforeKiB": 104.4,
+          "afterKiB": 68.6,
+          "reductionPercent": 34.3
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "beforeKiB": 144.7,
+          "afterKiB": 92.7,
+          "reductionPercent": 35.9
+        },
+        {
+          "width": 1280,
+          "height": 854,
+          "beforeKiB": 214.1,
+          "afterKiB": 135.7,
+          "reductionPercent": 36.6
+        }
+      ]
+    },
+    {
+      "source": "images/dukat-fotografija-02.jpg",
+      "variants": [
+        {
+          "width": 768,
+          "height": 1024,
+          "beforeKiB": 411.4,
+          "afterKiB": 292.7,
+          "reductionPercent": 28.9
+        },
+        {
+          "width": 960,
+          "height": 1280,
+          "beforeKiB": 636.2,
+          "afterKiB": 447,
+          "reductionPercent": 29.7
+        },
+        {
+          "width": 1280,
+          "height": 1707,
+          "beforeKiB": 1055.8,
+          "afterKiB": 754.8,
+          "reductionPercent": 28.5
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "oldVariantsBytes": 107205156,
+    "newVariantsBytes": 61330050
+  }
+}

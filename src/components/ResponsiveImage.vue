@@ -7,6 +7,7 @@ const props = defineProps({
   eager: Boolean,
   priority: { type: String, default: 'auto' },
   sizes: { type: String, default: '100vw' },
+  fixedSizes: Boolean,
 });
 const element = ref(null);
 const visible = ref(props.eager);
@@ -18,7 +19,7 @@ const dimensions = computed(() => imageDimensions(props.source));
 // no-JavaScript visitors. Native lazy loading defers offscreen image transfers;
 // intrinsic dimensions reserve layout space while sizes is refined after mount.
 const measuredSizes = computed(() => {
-  if (!box.value || !dimensions.value) return props.sizes;
+  if (props.fixedSizes || !box.value || !dimensions.value) return props.sizes;
   const { width, height, fit } = box.value;
   const ratio = dimensions.value.width / dimensions.value.height;
   // Width alone underestimates the resolution required when object-fit: cover

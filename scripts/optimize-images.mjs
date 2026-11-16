@@ -29,33 +29,20 @@ async function walk(directory) {
     const width = metadata.autoOrient?.width || metadata.width;
     const height = metadata.autoOrient?.height || metadata.height;
     const logo = entry.name.startsWith('dukat-logo');
-    // Text/line art and transparent decorations use lossless WebP. No sharpening,
-    // cropping, upscaling or arbitrary full-size resolution cap is applied.
+    // Preserve text, logos and transparency losslessly; photos use lighter WebP.
     const lossless = logo || metadata.hasAlpha || /^(menu-|celebration-offer|wednesday-poster)/.test(entry.name);
-    const detailedPhoto = /^(magaza-|stay-gallery-|stay-hero-|celebration-gallery-1-(clarity-v2|contrast-v3))/.test(entry.name);
-    const quality = detailedPhoto ? 94 : 90;
-    const preserveOriginal = /\.(jpe?g|webp)$/i.test(entry.name);
-    const maxWidth = width;
+    const quality = 80;
+    const maxWidth = Math.min(width, 1440);
     // Decorations currently request only the native size; the logo renders at 64–74px.
     const candidates = logo ? [80, 160, 240, Math.min(240, maxWidth)]
       : backgroundImages.includes(source) ? [maxWidth]
-      : [160, 320, 480, 640, 768, 960, 1280, 1536, maxWidth];
+      : [160, 320, 480, 640, 768, 960, 1280, maxWidth];
     const widths = [...new Set(candidates.filter(w => w <= maxWidth))].sort((a,b) => a-b);
-    const settings = { version: 2, quality, lossless, effort: 6, smartSubsample: true, alphaQuality: 100 };
+    const settings = { version: 3, quality, lossless, maxWidth, effort: 6, smartSubsample: true, alphaQuality: 100 };
     const hash = createHash('sha256').update(input).update(JSON.stringify(settings)).digest('hex').slice(0, 10);
     const stem = path.basename(file, path.extname(file));
     const variants = [];
     for (const size of widths) {
-      // Do not re-encode an already compressed JPEG/WebP at its native size.
-      if (size === width && preserveOriginal) {
-        // Give the unchanged bytes a versioned URL too, so hosting can cache
-        // every optimized image immutably without making originals stale.
-        const nativeName = `${stem}-${hash}-${width}${path.extname(file).toLowerCase()}`;
-        const destination = path.join(output, nativeName);
-        try { await stat(destination); } catch { await writeFile(destination, input); }
-        variants.push({ width, height, src: `images/optimized/${nativeName}`, encoding: 'original' });
-        continue;
-      }
       const name = `${stem}-${hash}-${size}.webp`;
       const destination = path.join(output, name);
       try { await stat(destination); } catch {
