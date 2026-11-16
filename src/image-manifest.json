@@ -2573,6 +2573,50 @@
       "encoding": "q80"
     }
   ],
+  "images/wednesday-poster-sharp-v2.webp": [
+    {
+      "width": 160,
+      "height": 227,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-160.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 320,
+      "height": 454,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-320.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 480,
+      "height": 682,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-480.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 640,
+      "height": 909,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-640.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 768,
+      "height": 1091,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-768.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 960,
+      "height": 1363,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-960.webp",
+      "encoding": "lossless"
+    },
+    {
+      "width": 1052,
+      "height": 1494,
+      "src": "images/optimized/wednesday-poster-sharp-v2-ad1629b13d-1052.webp",
+      "encoding": "lossless"
+    }
+  ],
   "images/wednesday-poster.webp": [
     {
       "width": 160,
