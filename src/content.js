@@ -140,11 +140,11 @@ export const copy = {
 };
 export const images = {
   poster: {
-    src: "images/wednesday-poster.webp",
+    src: "images/wednesday-poster-sharp-v2.webp",
     alt: "Плакат Етно села ДУКАТ: среда је дан за домаћу кухињу, домаћа кувана јела по 400 динара. За данашњи избор јела позовите 064 005 0106.",
     illustrative: false,
-    width: 456,
-    height: 647,
+    width: 1052,
+    height: 1494,
     label: "Среда је дан за домаћу кухињу",
   },
   restaurantCard: {
