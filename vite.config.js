@@ -56,12 +56,14 @@ export default defineConfig(({ mode }) => {
   const env = { ...loadEnv(mode, process.cwd(), ''), ...process.env };
   return {
   plugins: [optimizedImages(), seoPlugin(env.SITE_URL, env.GOOGLE_SITE_VERIFICATION), vue({ features: { componentIdGenerator: 'filepath-source' } })],
-  base: "./",
+  // A 404 can be served at any URL depth; its assets must resolve from the origin.
+  base: "/",
   resolve: { preserveSymlinks: true },
   build: {
     rollupOptions: {
       input: {
         main: fileURLToPath(new URL("./index.html", import.meta.url)),
+        notFound: fileURLToPath(new URL("./404.html", import.meta.url)),
         magaze: fileURLToPath(new URL("./magaze.html", import.meta.url)),
         restoran: fileURLToPath(new URL("./restoran/index.html", import.meta.url)),
         smestaj: fileURLToPath(new URL("./smestaj/index.html", import.meta.url)),

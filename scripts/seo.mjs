@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { pages, normalizeSiteUrl } from '../site.config.js';
+import { pages, normalizeSiteUrl, defaultSiteUrl } from '../site.config.js';
 import { venue } from '../src/content.js';
 
 const manifest = JSON.parse(readFileSync(new URL('../src/image-manifest.json', import.meta.url), 'utf8'));
@@ -12,7 +12,7 @@ export function structuredData(page, origin) {
   const businessId = url('/#business');
   const business = {
     '@type': ['Restaurant', 'LodgingBusiness'], '@id': businessId,
-    name: venue.name, alternateName: 'Etno selo Dukat',
+    name: venue.name, alternateName: ['Etno selo Dukat', 'Etno selo Dukat - Етно село Дукат'],
     description: 'Етно село у Мислођину код Обреновца: ресторан домаће кухиње, смештај у магазама и сала за прославе.',
     telephone: venue.tel.replace('tel:', ''), email: venue.email,
     address: { '@type': 'PostalAddress', streetAddress: venue.address, addressLocality: 'Мислођин', addressRegion: 'Обреновац, Београд', postalCode: '11500', addressCountry: 'RS' },
@@ -20,7 +20,13 @@ export function structuredData(page, origin) {
     sameAs: [venue.instagram, venue.tiktok], image,
     ...(origin ? { url: url('/'), hasMenu: url('/restoran/#menu-prikaz') } : {}),
   };
-  // Unconfirmed opening hours and third-party review scores are intentionally not marked up.
+  if (venue.hours.verified) business.openingHoursSpecification = {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(day => `https://schema.org/${day}`),
+    opens: '09:00', closes: '21:00',
+  };
+  // Google excludes self-serving LocalBusiness reviews from review rich results.
+  // Do not copy a third-party rating into aggregateRating.
   const graph = [business, {
     '@type': 'WebSite', '@id': url('/#website'), name: venue.name,
     inLanguage: 'sr-Cyrl', publisher: { '@id': businessId },
@@ -41,7 +47,7 @@ export function structuredData(page, origin) {
 }
 
 export function seoPlugin(siteUrl = '', verification = '') {
-  const origin = normalizeSiteUrl(siteUrl);
+  const origin = normalizeSiteUrl(siteUrl || defaultSiteUrl);
   return {
     name: 'local-search-metadata',
     transformIndexHtml: {
@@ -49,7 +55,8 @@ export function seoPlugin(siteUrl = '', verification = '') {
       handler(html, context) {
         const page = pages.find(page => `/${page.file}` === context.path);
         if (!page) return html;
-        html = html.replace(/<title>[\s\S]*?<\/title>/i, '')
+        html = html.replace(/<html\s+lang=["'][^"']+["']/i, '<html lang="sr"')
+          .replace(/<title>[\s\S]*?<\/title>/i, '')
           .replace(/<meta\s+[^>]*(?:name=["'](?:description|twitter:[^"']+)["']|property=["']og:[^"']+["'])[^>]*>/gi, '');
         const meta = (key, value, property = false) => `<meta ${property ? 'property' : 'name'}="${key}" content="${escape(value)}">`;
         const tags = [

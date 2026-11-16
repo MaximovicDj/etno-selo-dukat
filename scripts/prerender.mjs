@@ -13,7 +13,8 @@ const server = await createServer({
 });
 try {
   const { render } = await server.ssrLoadModule('/src/entry-server.js');
-  for (const page of pages) {
+  const renderPages = [...pages, { file: '404.html', component: 'notFound' }];
+  for (const page of renderPages) {
     const file = `dist/${page.file}`;
     const template = await readFile(file, 'utf8');
     const { html: content, lightboxes } = await render(page.component, { depth: page.legacy || page.path === '/' ? 0 : 1 });
@@ -24,7 +25,7 @@ try {
     await writeFile(file, template.replace(marker, () => `<div id="app" data-prerendered="true">${content}</div>`)
       .replace('<div id="image-lightboxes"></div>', () => `<div id="image-lightboxes">${lightboxes}</div>`));
   }
-  console.log(`Prerendered ${pages.length} complete HTML pages.`);
+  console.log(`Prerendered ${renderPages.length} complete HTML pages.`);
 } finally {
   await server.close();
 }

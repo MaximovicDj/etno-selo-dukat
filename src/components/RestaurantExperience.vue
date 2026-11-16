@@ -109,7 +109,7 @@ const foodImages = [
     <div class="wrap">
       <header class="restaurant-experience-heading">
         <p class="eyebrow">РЕСТОРАН · ЕТНО СЕЛО ДУКАТ</p>
-        <h1 id="restaurant-page-title">Домаћа трпеза, време за разговор.</h1>
+        <h1 id="restaurant-page-title">Ресторан домаће кухиње код Обреновца.</h1>
         <p>Уживајте у домаћим специјалитетима, припремљеним по традиционалним рецептима,<br />од свежих и квалитетних намирница.</p>
       </header>
 
