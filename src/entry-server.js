@@ -5,8 +5,9 @@ import Restaurant from './RestaurantPage.vue';
 import Stay from './AccommodationPage.vue';
 import Celebrations from './CelebrationsPage.vue';
 import Contact from './ContactPage.vue';
+import NotFound from './NotFoundPage.vue';
 
-const components = { home: Home, restaurant: Restaurant, stay: Stay, celebrations: Celebrations, contact: Contact };
+const components = { home: Home, restaurant: Restaurant, stay: Stay, celebrations: Celebrations, contact: Contact, notFound: NotFound };
 export async function render(page, props = {}) {
   const component = components[page];
   if (!component) throw new Error(`Unknown page: ${page}`);

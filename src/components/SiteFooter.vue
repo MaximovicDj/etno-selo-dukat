@@ -5,10 +5,11 @@ import IconSymbol from "./IconSymbol.vue";
 import { copy, venue } from "../content";
 
 const props = defineProps({
-  depth: { type: Number, default: 0 } }
+  depth: { type: Number, default: 0 },
+  homeHref: { type: String, default: '' } }
 );
 
-const home = () => (props.depth ? "../" : "./");
+const home = () => props.homeHref || (props.depth ? "../" : "./");
 
 </script>
 
@@ -42,6 +43,7 @@ const home = () => (props.depth ? "../" : "./");
         </a>
       </div>
     </div>
+    <p class="wrap footer-description" lang="sr-Latn">Etno selo Dukat — restoran domaće kuhinje, sala za proslave i smeštaj u prirodi u Mislođinu kod Obrenovca, blizu Beograda.</p>
     <div class="wrap footer-bottom">
       <span>© {{ new Date().getFullYear() }} {{ copy.footer.copyright }}</span>
       <span>{{ copy.footer.bottom }}</span>
@@ -52,3 +54,13 @@ const home = () => (props.depth ? "../" : "./");
     </div>
   </footer>
 </template>
+
+<style scoped>
+.site-footer .footer-description {
+  margin-block: 24px;
+  font-family: inherit;
+  font-style: normal;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+</style>
