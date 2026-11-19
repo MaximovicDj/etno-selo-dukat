@@ -33,7 +33,7 @@ defineProps({ depth: { type: Number, default: 1 } });
           <p class="stay-description">{{ page.description }}</p>
           <div class="stay-hero-actions">
             <span class="stay-price">
-              <IconSymbol name="bed" /> 35 € са доручком
+              <IconSymbol name="bed" /> 40 € са доручком
             </span>
             <a class="button button-dark" :href="venue.tel">
               Резервишите боравак
@@ -91,7 +91,7 @@ defineProps({ depth: { type: Number, default: 1 } });
         <div class="stay-facts" data-reveal aria-label="Информације о смештају">
           <div>
             <IconSymbol name="bed" />
-            <strong>35 € / ноћ</strong>
+            <strong>40 € / ноћ</strong>
             <span>са доручком</span>
           </div>
           <div>
